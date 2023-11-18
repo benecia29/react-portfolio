@@ -1,26 +1,9 @@
 import React, { useRef, useEffect } from "react";
+import resume from "../../assets/resume.pdf";
 
 const Header = () => {
   const headerRef = useRef(null);
   const menuRef = useRef(null);
-
-  //const stickyHeaderFunc = () => {
-  //   window.addEventListener("scroll", () => {
-  //     if (
-  //       document.body.scrollTop > 80 ||
-  //       document.documentElement.scrollTop > 80
-  //     ) {
-  //       headerRef.current.classlist.add("sticky__header");
-  //     } else {
-  //       headerRef.current.classlist.remove("sticky__header");
-  //     }
-  //   });
-  // };
-
-  // useEffect(()=>{
-  //   stickyHeaderFunc()
-  //   return window.removeEventListener('scroll, stickyHeaderFunc')
-  // },[])
 
   useEffect(() => {
     const stickyHeaderFunc = () => {
@@ -125,7 +108,11 @@ const Header = () => {
           {/* *********menu right*********** */}
           <div className="flex items-center gap-4">
             <button className="flex items-center gap-2 text-smallTextColor font-[600] border border-solid border-smallTextColor py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-smallTextColor hover:text-white ease-in duration-300">
-              <i className="ri-file-download-line"><span className="mx-2 sm:inline hidden">Download CV</span></i>
+              <a href={resume} download>
+                <i className="ri-file-download-line">
+                  <span className="mx-2 sm:inline hidden">Download CV</span>
+                </i>
+              </a>
             </button>
             <span
               onClick={togglemenu}

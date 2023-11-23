@@ -42,17 +42,17 @@ const Header = () => {
   return (
     <header
       ref={headerRef}
-      className="w-full h-[80px] leading-[80px] flex items-center"
+      className="w-full h-[80px] leading-[80px] flex items-center bg-gradient-to-r from-[#ebe7ff] to-[#ffeef7] via-[#e7f5ff]"
     >
       <div className="container">
         <div className="flex items-center justify-between">
           {/* *********logo start*********** */}
-          <div className="flex items-center gap-10">
+          <div className="flex items-center gap-5">
             <span className="w-[35px] h-[35px] bg-primaryColor text-white text-[18px] font-[500] rounded-full  flex items-center justify-center">
               B
             </span>
             <div className="leading-[20px]">
-              <h2 className="text-xl  text-smallTextColor font-[700]">
+              <h2 className="text-xl  text-smallTextColor font-[700] ">
                 Benecia
               </h2>
               <p className="text-smallTextColor text-[14px] font-[500]">
@@ -80,7 +80,16 @@ const Header = () => {
                   className="text-smallTextColor font-[600px]"
                   href="#services"
                 >
-                  Services
+                  Experience
+                </a>
+              </li>
+              <li>
+                <a
+                  onClick={handleClick}
+                  className="text-smallTextColor font-[600px]"
+                  href="#profile"
+                >
+                  Profile
                 </a>
               </li>
               <li>
@@ -114,6 +123,7 @@ const Header = () => {
                 </i>
               </a>
             </button>
+
             <span
               onClick={togglemenu}
               className="text-2xl text-smallTextColor md:hidden cursor-pointer"

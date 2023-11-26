@@ -43,11 +43,11 @@ const Portfolio = () => {
         <div className="flex items-center justify-between flex-wrap">
           <div className="mb-7 sm:mb-0">
             <h3 className="text-headingColor text-[2rem] font-[700]">
-              My recent projects
+              My Projects
             </h3>
           </div>
 
-          <div className="flex gap-3">
+          {/* <div className="flex gap-3">
             <button
               onClick={() => setSelectTab("all")}
               className="text-smallTextColor border border-solid border-smallTextColor py-2 px-4 rounded-[8px]"
@@ -66,7 +66,7 @@ const Portfolio = () => {
             >
               UX Design
             </button>
-          </div>
+          </div> */}
         </div>
 
         <div className="flex items-center gap-4 flex-wrap mt-12">

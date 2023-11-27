@@ -3,6 +3,7 @@ import profilePic from "../../assets/images/benecia.jpg";
 import star from "../../assets/images/star.png";
 import rightArrow from "../../assets/images/right-arrow.png";
 import resume from "../../assets/resume.pdf";
+import Slider from "./Slider";
 
 const Profile = () => {
   return (
@@ -13,14 +14,13 @@ const Profile = () => {
             Personal Details & Qualifications
           </h2>
         </div>
-
-        <div className="sm:flex items-center">
-          {/* ***********card starts*************** */}
-          <main className=" sm:w-[450px] my-5 mt-[150px] h-[90%] mx-3 rounded-2xl sticky shadow-2xl bg-white">
+        <div className="sm:flex items-center justify-around sm:-mt-[170px]">
+          {/* ***********profile card starts*************** */}
+          <main className="sm:w-[380px] my-5 mt-[150px] h-[90%] mx-3 sm:mx-1 rounded-2xl sticky shadow-2xl bg-white">
             <div className="absolute sm:-mt-[150px] -mt-[120px] sm:left-[84px] left-[63px]">
               <img
                 src={profilePic}
-                className="shadow-xl sm:w-[270px] w-[200px] sm:h-[270px] h-[200px] drop-shadow-xl mx-auto rounded-[20px]  left-[15%]"
+                className="shadow-xl sm:w-[230px] w-[200px] sm:h-[230px] h-[200px] drop-shadow-xl mx-auto rounded-[20px] left-[15%] sm:-ml-[8px]"
                 alt=""
               />
             </div>
@@ -140,42 +140,42 @@ const Profile = () => {
               </a>
             </button>
           </main>
-          {/* ***********card ends*************** */}
+          {/* ***********profile card ends*************** */}
 
           {/* ***********right content starts*************** */}
-          <div className="h-full bg-white ml-10">
+          <div className="my-5 mt-[50px] h-[90%] mx-3 sm:mx-1 rounded-2xl sticky shadow-2xl bg-white px-3 py-3">
             <div className="flex gap-2 items-center">
-              <frame className="h-7 w-7 bg-transparent">
-                <img src={star} alt="" />
+              <frame className="h-10 w-8 bg-transparent">
+                <img src={star} alt="" className="h-[20px] w-[30px]"/>
               </frame>
-              <h2 className="px-2 py-2 text-primaryColor font-[600] text-[20px]">
+              <h2 className="px-2 py-2 text-smallTextColor font-[600] text-[18px]">
                 Class Representative for 3 consecutive years.
               </h2>
             </div>
 
             <div className="flex gap-2 items-center">
-              <frame className="h-7 w-7 bg-transparent">
-                <img src={star} alt="" />
+              <frame className="h-5 w-7 bg-transparent">
+                <img src={star} alt="" className="h-[20px] w-[22px]"/>
               </frame>
-              <h2 className="px-2 py-2 text-primaryColor font-[600] text-[20px]">
+              <h2 className="px-2 py-2 text-smallTextColor font-[600] text-[18px] -ml-[6px]">
                 Student Manager at DLLE.
               </h2>
             </div>
 
             <div className="flex gap-2 items-center">
-              <frame className="h-7 w-7 bg-transparent">
-                <img src={star} alt="" />
+              <frame className="h-10 w-8 bg-transparent">
+                <img src={star} alt="" className="h-[20px] w-[30px]"/>
               </frame>
-              <h2 className="px-2 py-2 text-primaryColor font-[600] text-[20px]">
+              <h2 className="px-2 py-2 text-smallTextColor font-[600] text-[18px]">
                 Assistant Contingent Leader at Bhavan's College.
               </h2>
             </div>
 
             <div className="flex gap-2 items-center">
-              <frame className="h-7 w-7 bg-transparent">
-                <img src={star} alt="" />
+              <frame className="-mt-[48px] w-10 bg-transparent">
+                <img src={star} alt="" className="h-[20px] w-[30px]"/>
               </frame>
-              <h2 className="px-2 py-2 text-primaryColor font-[600] text-[20px]">
+              <h2 className="px-2 py-2 text-smallTextColor font-[600] text-[18px]">
                 Social media manager{" "}
                 <a
                   href="https://instagram.com/bhavans.cultural?igshid=YTQwZjQ0NmI0OA=="
@@ -186,44 +186,56 @@ const Profile = () => {
                 on Instagram.
               </h2>
             </div>
+
+            {/* **************top skills*************** */}
             <h1 className="font-[Poppins] text-headingColor font-[800] text-[26px] mt-6 mb-2">
               Top Skills
             </h1>
-            <ul>
-              <li className="flex gap-4 px-2 py-2 text-smallTextColor font-[600] text-[20px]">
-                <img src={rightArrow} alt="" className="mr" />
-                Interpersonal skills
-              </li>
 
-              <li className="flex gap-4 px-2 py-2 text-smallTextColor font-[600] text-[20px]">
-                <img src={rightArrow} alt="" className="mr" />
-                Organizational skills
-              </li>
+            <div className="sm:flex items-center justify-around">
+              <div>
+                <ul>
+                  <li className="flex gap-4 px-2 py-2 text-smallTextColor font-[600] text-[18px]">
+                    <img src={rightArrow} alt="" className="h-[20px] w-[25px] mt-1" />
+                    Interpersonal skills
+                  </li>
 
-              <li className="flex gap-4 px-2 py-2 text-smallTextColor font-[600] text-[20px]">
-                <img src={rightArrow} alt="" className="mr" />
-                Effective communication
-              </li>
+                  <li className="flex gap-4 px-2 py-2 text-smallTextColor font-[600] text-[18px]">
+                    <img src={rightArrow} alt="" className="h-[20px] w-[25px] mt-1" />
+                    Organizational skills
+                  </li>
 
-              <li className="flex gap-4 px-2 py-2 text-smallTextColor font-[600] text-[20px]">
-                <img src={rightArrow} alt="" className="mr" />
-                Leveraging AI tools
-              </li>
+                  <li className="flex gap-4 px-2 py-2 text-smallTextColor font-[600] text-[18px]">
+                    <img src={rightArrow} alt="" className="h-[20px] w-[25px] mt-1"/>
+                    Effective communication
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <ul>
+                  <li className="flex gap-4 px-2 py-2 text-smallTextColor font-[600] text-[18px]">
+                    <img src={rightArrow} alt="" className="h-[20px] w-[25px] mt-1" />
+                    Leveraging AI tools
+                  </li>
 
-              <li className="flex gap-4 px-2 py-2 text-smallTextColor font-[600] text-[20px]">
-                <img src={rightArrow} alt="" className="mr" />
-                Web development
-              </li>
+                  <li className="flex gap-4 px-2 py-2 text-smallTextColor font-[600] text-[18px]">
+                    <img src={rightArrow} alt="" className="h-[20px] w-[25px] mt-1" />
+                    Web development
+                  </li>
 
-              <li className="flex gap-4 px-2 py-2 text-smallTextColor font-[600] text-[20px]">
-                <img src={rightArrow} alt="" className="mr" />
-                UI/UX designs
-              </li>
-            </ul>
+                  <li className="flex gap-4 px-2 py-2 text-smallTextColor font-[600] text-[18px]">
+                    <img src={rightArrow} alt="" className="h-[20px] w-[25px] mt-1" />
+                    UI/UX designs
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            {/* **************tech stack************** */}
             <h1 className="font-[Poppins] text-headingColor font-[800] text-[26px] mt-6 mb-2">
-              Technologies I have experience with
+              Technologies I have worked with
             </h1>
-            
+            <Slider />
           </div>
           {/* ***********right-side white container ends*************** */}
         </div>

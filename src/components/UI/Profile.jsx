@@ -16,17 +16,17 @@ const Profile = () => {
         </div>
         <div className="sm:flex items-center justify-around sm:-mt-[170px]">
           {/* ***********profile card starts*************** */}
-          <main className="sm:w-[380px] my-5 mt-[150px] h-[90%] mx-3 sm:mx-1 rounded-2xl sticky shadow-2xl bg-white">
-            <div className="absolute sm:-mt-[150px] -mt-[120px] sm:left-[84px] left-[63px]">
+          <main className="sm:w-[380px] my-5 mt-[130px] h-[90%] mx-3 sm:mx-1 rounded-2xl sticky shadow-2xl bg-white">
+            <div className="absolute sm:-mt-[130px] -mt-[120px] sm:left-[84px] left-[63px]">
               <img
                 src={profilePic}
-                className="shadow-xl sm:w-[230px] w-[200px] sm:h-[230px] h-[200px] drop-shadow-xl mx-auto rounded-[20px] left-[15%] sm:-ml-[8px]"
+                className="shadow-xl sm:w-[230px] w-[200px] sm:h-[230px] h-[200px] drop-shadow-xl rounded-[20px] left-[15%] sm:-ml-[8px]"
                 alt=""
               />
             </div>
 
             <div className="sm:mt-2 pt-[105px] sm:pt-[143px] sm:pb-0 space-y-2">
-              <h3 className="text-center font-bold text-xl text-smallTextColor font-[Poppins] sm:leading-10 top-[100px] text-[29px] sm:text-[30px]">
+              <h3 className="text-center font-bold text-xl text-smallTextColor font-[Poppins] sm:leading-7 top-[100px] text-[29px] sm:text-[30px] sm:-mt-[25px]">
                 Benecia Crasta
               </h3>
             </div>
@@ -95,7 +95,7 @@ const Profile = () => {
 
               {/* ********email********* */}
               <div className="gap-3 sm:gap-5 flex">
-                <div className="mt-[17px] sm:mt-[6px] flex items-center gap-2  font-[600] shadow-xl bg-white px-3 sm:py-3 rounded-xl max-h-[40px] hover:bg-primaryColor hover:text-white ease-in duration-300">
+                <div className="mt-[17px] sm:mt-[15px] flex items-center gap-2  font-[600] shadow-xl bg-white px-3 sm:py-3 rounded-xl max-h-[40px] hover:bg-primaryColor hover:text-white ease-in duration-300">
                   <a href="#email">
                     <i class="ri-mail-line"></i>
                   </a>
@@ -134,7 +134,7 @@ const Profile = () => {
             </div>
             {/* *******personal details ends******** */}
 
-            <button className="px-4 py-2 my-6 ml-[95px] sm:ml-[153px] font-semibold text-sm text-center  bg-smallTextColor text-white rounded-full shadow-sm">
+            <button className="px-4 py-2 my-6 ml-[95px] sm:ml-[122px] font-semibold text-sm text-center  bg-smallTextColor text-white rounded-full shadow-sm">
               <a href={resume} download>
                 <span className="mx-2 inline">Download CV</span>
               </a>
@@ -143,39 +143,39 @@ const Profile = () => {
           {/* ***********profile card ends*************** */}
 
           {/* ***********right content starts*************** */}
-          <div className="my-5 mt-[50px] h-[90%] mx-3 sm:mx-1 rounded-2xl sticky shadow-2xl bg-white px-3 py-3">
+          <div className="my-5 mt-[50px] sm:mt-[135px] h-[90%] mx-3 sm:mx-1 rounded-2xl sticky shadow-2xl bg-white px-3 py-3 sm:px-5 sm:py-7">
             <div className="flex gap-2 items-center">
-              <frame className="h-10 w-8 bg-transparent">
-                <img src={star} alt="" className="h-[20px] w-[30px]"/>
+              <frame className="h-10 w-8 sm:h-6 sm:w-7 bg-transparent">
+                <img src={star} alt="" className="h-[20px] w-[30px] sm:h-[22px]"/>
               </frame>
-              <h2 className="px-2 py-2 text-smallTextColor font-[600] text-[18px]">
+              <h2 className="px-2 py-2 text-smallTextColor font-[600] text-[18px] sm:text-[21px]">
                 Class Representative for 3 consecutive years.
               </h2>
             </div>
 
             <div className="flex gap-2 items-center">
-              <frame className="h-5 w-7 bg-transparent">
-                <img src={star} alt="" className="h-[20px] w-[22px]"/>
+              <frame className="h-5 w-7 sm:h-6 sm:w-7 bg-transparent">
+                <img src={star} alt="" className="h-[20px] w-[22px] sm:h-[22px] sm:w-[27px]"/>
               </frame>
-              <h2 className="px-2 py-2 text-smallTextColor font-[600] text-[18px] -ml-[6px]">
+              <h2 className="px-2 py-2 text-smallTextColor font-[600] text-[18px] sm:text-[21px] -ml-[6px] sm:ml-0">
                 Student Manager at DLLE.
               </h2>
             </div>
 
             <div className="flex gap-2 items-center">
-              <frame className="h-10 w-8 bg-transparent">
-                <img src={star} alt="" className="h-[20px] w-[30px]"/>
+              <frame className="h-10 w-8 sm:h-6 sm:w-7 bg-transparent">
+                <img src={star} alt="" className="h-[20px] w-[30px] sm:h-[22px] sm:w-[28px]"/>
               </frame>
-              <h2 className="px-2 py-2 text-smallTextColor font-[600] text-[18px]">
+              <h2 className="px-2 py-2 text-smallTextColor font-[600] text-[18px] sm:text-[21px]">
                 Assistant Contingent Leader at Bhavan's College.
               </h2>
             </div>
 
             <div className="flex gap-2 items-center">
-              <frame className="-mt-[48px] w-10 bg-transparent">
-                <img src={star} alt="" className="h-[20px] w-[30px]"/>
+              <frame className="-mt-[48px] sm:-mt-[1px] w-10 sm:h-6 sm:w-7 bg-transparent">
+                <img src={star} alt="" className="h-[20px] w-[30px] sm:h-[22px] sm:w-[29px]"/>
               </frame>
-              <h2 className="px-2 py-2 text-smallTextColor font-[600] text-[18px]">
+              <h2 className="px-2 py-2 text-smallTextColor font-[600] text-[18px] sm:text-[21px]">
                 Social media manager{" "}
                 <a
                   href="https://instagram.com/bhavans.cultural?igshid=YTQwZjQ0NmI0OA=="
@@ -232,7 +232,7 @@ const Profile = () => {
             </div>
 
             {/* **************tech stack************** */}
-            <h1 className="font-[Poppins] text-headingColor font-[800] text-[26px] mt-6 mb-2">
+            <h1 className="font-[Poppins] text-headingColor font-[800] text-[26px] mt-7 mb-2">
               Technologies I have worked with
             </h1>
             <Slider />

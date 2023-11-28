@@ -1,34 +1,34 @@
-import bootstrap from "../../assets/images/bootstrap-img.png";
-import css from "../../assets/images/css-img.png";
-import figma from "../../assets/images/css-img.png";
-import git from "../../assets/images/git-img.png";
-import html from "../../assets/images/html-img.png";
-import java from "../../assets/images/java-img.png";
-import js from "../../assets/images/js-img.png";
-import mongodb from "../../assets/images/mongodb-img.png";
-import mysql from "../../assets/images/mysql-img.png";
-import nextjs from "../../assets/images/next-img.png";
-import python from "../../assets/images/python-img.png";
-import react from "../../assets/images/react-img.png";
-import tailwind from "../../assets/images/tailwind-img.png";
-//import JSON
+import figma from "../../assets/images/TechStack Icons/figma-icon.svg";
+import tailwind from "../../assets/images/TechStack Icons/tailwindcss-icon.svg";
+import bootstrap from "../../assets/images/TechStack Icons/bootstrap-plain-wordmark.svg";
+import js from "../../assets/images/TechStack Icons/javascript-original.svg";
+import react from "../../assets/images/TechStack Icons/react-original-wordmark.svg";
+import next from "../../assets/images/TechStack Icons/nextjs-2.svg";
+import node from "../../assets/images/TechStack Icons/nodejs-original-wordmark.svg";
+import python from "../../assets/images/TechStack Icons/python-original.svg";
+import cpp from "../../assets/images/TechStack Icons/cplusplus-original.svg";
+import java from "../../assets/images/TechStack Icons/java-original.svg";
+import mongodb from "../../assets/images/TechStack Icons/mongodb-original-wordmark.svg";
+import mysql from "../../assets/images/TechStack Icons/mysql-original-wordmark.svg";
+import git from "../../assets/images/TechStack Icons/git-scm-icon.svg";
+import unity from "../../assets/images/TechStack Icons/unity3d-icon.svg";
 
 const portfolios = [
   {
     id: "01",
-    imgUrl: html,
+    imgUrl: figma,
   },
   {
     id: "02",
-    imgUrl: css,
-  },
-  {
-    id: "03",
     imgUrl: tailwind,
   },
   {
-    id: "04",
+    id: "03",
     imgUrl: bootstrap,
+  },
+  {
+    id: "04",
+    imgUrl: js,
   },
   {
     id: "05",
@@ -36,19 +36,19 @@ const portfolios = [
   },
   {
     id: "06",
-    imgUrl: nextjs,
+    imgUrl: next,
   },
   {
     id: "07",
-    imgUrl: git,
+    imgUrl: node,
   },
   {
     id: "08",
-    imgUrl: figma,
+    imgUrl: python,
   },
   {
     id: "09",
-    imgUrl: js,
+    imgUrl: cpp,
   },
   {
     id: "10",
@@ -64,36 +64,12 @@ const portfolios = [
   },
   {
     id: "13",
-    imgUrl: python,
+    imgUrl: git,
   },
   {
     id: "14",
-    imgUrl: JSON,
+    imgUrl: unity,
   }
-//   {
-//     id: "01",
-//     imgUrl: portfolioImg01,
-//   },
-//   {
-//     id: "01",
-//     imgUrl: portfolioImg01,
-//   },
-//   {
-//     id: "01",
-//     imgUrl: portfolioImg01,
-//   },
-//   {
-//     id: "01",
-//     imgUrl: portfolioImg01,
-//   },
-//   {
-//     id: "01",
-//     imgUrl: portfolioImg01,
-//   },
-//   {
-//     id: "01",
-//     imgUrl: portfolioImg01,
-//   },
 ];
 
 export default portfolios;

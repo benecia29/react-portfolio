@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from "react";
-import resume from "../../assets/resume.pdf";
 
-const Header = () => {
+const Header = (props) => {
   const headerRef = useRef(null);
   const menuRef = useRef(null);
 
@@ -11,9 +10,13 @@ const Header = () => {
         document.body.scrollTop > 80 ||
         document.documentElement.scrollTop > 80
       ) {
-        headerRef.current.classList.add("sticky__header");
+        props.theme === "light"
+          ? headerRef.current.classList.add("sticky__header")
+          : headerRef.current.classList.add("sticky_header_dark");
       } else {
-        headerRef.current.classList.remove("sticky__header");
+        props.theme === "light"
+          ? headerRef.current.classList.remove("sticky__header")
+          : headerRef.current.classList.remove("sticky_header_dark");
       }
     };
 
@@ -42,7 +45,7 @@ const Header = () => {
   return (
     <header
       ref={headerRef}
-      className="w-full h-[80px] leading-[80px] flex items-center bg-gradient-to-r from-[#ebe7ff] to-[#ffeef7] via-[#e7f5ff]"
+      className="w-full h-[80px] leading-[80px] flex items-center bg-gradient-to-r from-[#ebe7ff] to-[#ffeef7] via-[#e7f5ff] dark:bg-gradient-to-r dark:from-[#0D1224] dark:to-[#42252F] dark:via-[#3D3141]"
     >
       <div className="container">
         <div className="flex items-center justify-between">
@@ -116,13 +119,20 @@ const Header = () => {
 
           {/* *********menu right*********** */}
           <div className="flex items-center gap-4">
-            <button className="flex items-center gap-2 text-smallTextColor font-[600] border border-solid border-smallTextColor py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-smallTextColor hover:text-white ease-in duration-300">
-              <a href={resume} download>
-                <i className="ri-file-download-line">
-                  <span className="mx-2 sm:inline hidden">Download CV</span>
-                </i>
-              </a>
-            </button>
+            {/* ************dark mode icons start************** */}
+            <div className="flex shadow bg-[#F3F6F6] rounded-full hover:bg-primaryColor hover:text-white ease-in h-[46px] w-[46px]">
+              <div
+                onClick={props.handleSwitch}
+                className="top-0 -mt-[17px] ml-[8px]"
+              >
+                {props.theme === "light" ? (
+                  <i className="ri-moon-line text-[30px]"></i>
+                ) : (
+                  <i className="ri-sun-line text-[30px]"></i>
+                )}
+              </div>
+            </div>
+            {/* ************dark mode icons end************** */}
 
             <span
               onClick={togglemenu}

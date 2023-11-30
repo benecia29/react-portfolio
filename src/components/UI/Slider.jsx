@@ -10,7 +10,7 @@ export default function Slider() {
 
   return (
     <>
-      <div className="flex justify-center items-center sm:w-[50vw] bg-[#F3F6F6] px-3 py-3 my-3 rounded-xl">
+      <div className="flex justify-center items-center sm:w-[50vw] bg-offWhite px-3 py-3 my-3 rounded-xl">
         <Swiper
           slidesPerView={4}
           spaceBetween={10}

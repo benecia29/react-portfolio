@@ -55,10 +55,10 @@ const Header = (props) => {
               B
             </span>
             <div className="leading-[20px]">
-              <h2 className="text-xl  text-smallTextColor font-[700] ">
+              <h2 className="text-xl  text-smallTextColor dark:text-offWhite font-[700] ">
                 Benecia
               </h2>
-              <p className="text-smallTextColor text-[14px] font-[500]">
+              <p className="text-smallTextColor dark:text-offWhite text-[14px] font-[500]">
                 personal
               </p>
             </div>
@@ -71,7 +71,7 @@ const Header = (props) => {
               <li>
                 <a
                   onClick={handleClick}
-                  className="text-smallTextColor font-[600px]"
+                  className="text-smallTextColor dark:text-offWhite font-[600px]"
                   href="#about"
                 >
                   About
@@ -80,7 +80,7 @@ const Header = (props) => {
               <li>
                 <a
                   onClick={handleClick}
-                  className="text-smallTextColor font-[600px]"
+                  className="text-smallTextColor dark:text-offWhite font-[600px]"
                   href="#services"
                 >
                   Experience
@@ -89,7 +89,7 @@ const Header = (props) => {
               <li>
                 <a
                   onClick={handleClick}
-                  className="text-smallTextColor font-[600px]"
+                  className="text-smallTextColor dark:text-offWhite font-[600px]"
                   href="#profile"
                 >
                   Profile
@@ -98,7 +98,7 @@ const Header = (props) => {
               <li>
                 <a
                   onClick={handleClick}
-                  className="text-smallTextColor font-[600px]"
+                  className="text-smallTextColor dark:text-offWhite font-[600px]"
                   href="#portfolio"
                 >
                   Portfolio
@@ -107,7 +107,7 @@ const Header = (props) => {
               <li>
                 <a
                   onClick={handleClick}
-                  className="text-smallTextColor font-[600px]"
+                  className="text-smallTextColor dark:text-offWhite font-[600px]"
                   href="#contact"
                 >
                   Contact
@@ -120,7 +120,7 @@ const Header = (props) => {
           {/* *********menu right*********** */}
           <div className="flex items-center gap-4">
             {/* ************dark mode icons start************** */}
-            <div className="flex shadow bg-[#F3F6F6] rounded-full hover:bg-primaryColor hover:text-white ease-in h-[46px] w-[46px]">
+            <div className="flex shadow bg-[#F3F6F6] rounded-full hover:bg-primaryColor hover:text-white text-smallTextColor ease-in h-[46px] w-[46px]">
               <div
                 onClick={props.handleSwitch}
                 className="top-0 -mt-[17px] ml-[8px]"

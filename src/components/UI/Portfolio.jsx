@@ -41,8 +41,8 @@ const Portfolio = () => {
     <section id="portfolio">
       <div className="container">
         <div className="flex items-center justify-between flex-wrap">
-          <div className="-mb-[25px] -mt-[18px] sm:mb-0">
-            <h3 className="text-headingColor text-[2rem] font-[700]">
+          <div className="-mb-[25px] -mt-[18px] sm:mb-0 text-center">
+            <h3 className="text-headingColor dark:text-offWhite text-[2rem] font-[700]">
               My Projects
             </h3>
           </div>
@@ -75,7 +75,7 @@ const Portfolio = () => {
         <div className="text-center mt-6">
           <button
             onClick={loadMoreHandler}
-            className="text-white bg-primaryColor hover:bg-smallTextColor py-2 px-4 rounded-[8px] font-[500] ease-in duration-200"
+            className="text-white bg-primaryColor hover:bg-smallTextColor dark:hover:bg-headingColor py-2 px-4 rounded-[8px] font-[500] ease-in duration-200"
           >
             Load More
           </button>

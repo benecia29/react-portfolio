@@ -15,7 +15,7 @@ const Hero = () => {
             <h5
               data-aos="fade-right"
               data-aos-duration="1500"
-              className="text-headingColor dark:text-offWhite font-[600] text-[16px] mt-6"
+              className="text-headingColor dark:text-darkText font-[600] text-[16px] mt-6"
             >
               Hello, welcome
             </h5>
@@ -23,7 +23,7 @@ const Hero = () => {
             <h1
               data-aos="fade-up"
               data-aos-duration="1500"
-              className="text-headingColor font-[800] text-[1.8rem] sm:text-[40px] leading-[35px] sm:leading-[46px] mt-5"
+              className="text-headingColor dark:text-darkText font-[800] text-[1.8rem] sm:text-[40px] leading-[35px] sm:leading-[46px] mt-5"
             >
               I'm Benecia Crasta <br /> Aspiring{" "}
               <span>
@@ -62,7 +62,7 @@ const Hero = () => {
                 </a>
                 <a
                   href="#profile"
-                  className="text-smallTextColor font-[600] text-[16px] border-b border-solid border-smallTextColor"
+                  className="text-smallTextColor dark:text-darkText font-[600] text-[16px] border-b border-solid border-smallTextColor dark:border-darkText"
                 >
                   See profile
                 </a>
@@ -71,7 +71,7 @@ const Hero = () => {
               <p
                 data-aos="fade-up"
                 data-aos-duration="1800"
-                className="sm:flex gap-2 text-headingColor mt-4 font-[500] leading-7 text-justify sm:pr-10"
+                className="sm:flex gap-2 text-headingColor dark:text-darkText mt-4 font-[500] leading-7 text-justify sm:pr-10"
               >
                 As a 3rd-year Computer Science student, I'm passionate about web
                 development. My focus on creating user-friendly and visually
@@ -81,13 +81,13 @@ const Hero = () => {
               </p>
 
               <div className="flex items-center gap-9 mt-6">
-                <span className="text-smallTextColor text-[15px] font-[600]">
+                <span className="text-smallTextColor dark:text-darkText text-[15px] font-[600]">
                   Follow me
                 </span>
                 <span>
                   <a
                     href="https://www.linkedin.com/in/benecia-crasta/"
-                    className="text-smallTextColor text-[18px] font-[600]"
+                    className="text-smallTextColor dark:text-darkText text-[18px] font-[600]"
                   >
                     <i className="ri-linkedin-line"></i>
                   </a>
@@ -95,7 +95,7 @@ const Hero = () => {
                 <span>
                   <a
                     href="https://github.com/benecia29"
-                    className="text-smallTextColor text-[18px] font-[600]"
+                    className="text-smallTextColor dark:text-darkText text-[18px] font-[600]"
                   >
                     <i className="ri-github-line"></i>
                   </a>
@@ -103,7 +103,7 @@ const Hero = () => {
                 <span>
                   <a
                     href="https://instagram.com/the_food_addicts_101?igshid=YTQwZjQ0NmI0OA=="
-                    className="text-smallTextColor text-[18px] font-[600]"
+                    className="text-smallTextColor dark:text-darkText text-[18px] font-[600]"
                   >
                     <i className="ri-instagram-line"></i>
                   </a>

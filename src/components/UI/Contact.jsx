@@ -47,7 +47,7 @@ const Contact = () => {
   return (
     <section id="contact" className="pb-16 sm:pt-8 pt-2">
       <div className="container">
-        <h2 className="text-headingColor font-[700] text-[2.5rem] mb-4">
+        <h2 className="text-headingColor dark:text-offWhite font-[700] text-[2.5rem] mb-4">
           Get in touch
         </h2>
         <div className="md:flex justify-between items-center">
@@ -62,14 +62,14 @@ const Contact = () => {
             ></iframe>
           </div>
 
-          <div className="w-full mt-8 md:mt-0 md:w-1/2 sm:h-[450px] lg:flex items-center bg-indigo-100 lg:px-8 py-8">
+          <div className="w-full mt-8 md:mt-0 md:w-1/2 sm:h-[450px] lg:flex items-center bg-indigo-100 dark:bg-black lg:px-8 py-8">
             <form className="w-full" ref={form} onSubmit={sendEmail}>
               {/* ref={form} onSubmit={sendEmail} */}
-              <div className="mb-5 mx-4 sm:mx-2">
+              <div className="mb-5 mx-4 sm:mx-2 ">
                 <input
                   type="text"
                   placeholder="Enter your name"
-                  className="w-full p-3 focus:outline-none rounded-[5px]"
+                  className="w-full p-3 focus:outline-none rounded-[5px] dark:bg-darkGrey"
                   name="user_name"
                   required
                 />
@@ -79,7 +79,7 @@ const Contact = () => {
                 <input
                   type="email"
                   placeholder="Enter your email"
-                  className="w-full p-3 focus:outline-none rounded-[5px]"
+                  className="w-full p-3 focus:outline-none rounded-[5px] dark:bg-darkGrey"
                   name="user_email"
                   required
                 />
@@ -89,7 +89,7 @@ const Contact = () => {
                 <input
                   type="text"
                   placeholder="Subject"
-                  className="w-full p-3 focus:outline-none rounded-[5px]"
+                  className="w-full p-3 focus:outline-none rounded-[5px] dark:bg-darkGrey"
                 />
               </div>
 
@@ -98,14 +98,14 @@ const Contact = () => {
                   type="text"
                   rows={3}
                   placeholder="Write your message"
-                  className="w-full p-3 focus:outline-none rounded-[5px]"
+                  className="w-full p-3 focus:outline-none rounded-[5px] dark:bg-darkGrey"
                   name="message"
                   required
                 />
               </div>
               <div className="flex justify-center">
                 <input
-                  className="w-[91%] sm:w-[97%] p-3 mx-auto focus:outline-none rounded-[5px] bg-smallTextColor text-white hover:bg-headingColor text-center ease-linear duration-150"
+                  className="w-[91%] sm:w-[97%] p-3 mx-auto focus:outline-none rounded-[5px] bg-smallTextColor text-white hover:bg-headingColor dark:hover:bg-[#244c7f] text-center ease-linear duration-150"
                   type="submit"
                   value="Send message"
                   required

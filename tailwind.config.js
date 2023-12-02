@@ -10,6 +10,9 @@ module.exports = {
         smallTextColor: "#193256",
         bgColor: "#0A192F",
         offWhite: "#F3F6F6",
+        darkText: "#E2E1F1",
+        darkGrey: "#1D1D1D",
+        lightGrey: "#A6A6A6"
       },
     },
   },

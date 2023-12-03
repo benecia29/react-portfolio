@@ -10,13 +10,26 @@ const Header = (props) => {
         document.body.scrollTop > 80 ||
         document.documentElement.scrollTop > 80
       ) {
-        props.theme === "light"
-          ? headerRef.current.classList.add("sticky__header")
-          : headerRef.current.classList.add("sticky_header_dark");
+        if (props.theme === "light") {
+          headerRef.current.classList.add("sticky__header");
+        } else {
+          headerRef.current.classList.remove(
+            "dark:bg-gradient-to-r",
+            "dark:from-[#0D1224]",
+            "dark:to-[#42252F]",
+            "dark:via-[#3D3141]"
+          );
+          headerRef.current.classList.add("sticky_header_dark");
+        }
       } else {
-        props.theme === "light"
-          ? headerRef.current.classList.remove("sticky__header")
-          : headerRef.current.classList.remove("sticky_header_dark");
+        headerRef.current.classList.remove("sticky__header");
+        headerRef.current.classList.remove("sticky_header_dark");
+        headerRef.current.classList.add(
+          "dark:bg-gradient-to-r",
+          "dark:from-[#0D1224]",
+          "dark:to-[#42252F]",
+          "dark:via-[#3D3141]"
+        );
       }
     };
 
@@ -28,7 +41,7 @@ const Header = (props) => {
       // Remove the same function reference
       window.removeEventListener("scroll", stickyHeaderFunc);
     };
-  }, []);
+  }, [props.theme]);
 
   const handleClick = (e) => {
     e.preventDefault();
@@ -67,7 +80,7 @@ const Header = (props) => {
 
           {/* *********menu start*********** */}
           <div className="menu" onClick={togglemenu} ref={menuRef}>
-            <ul className="flex items-center gap-10">
+            <ul className="flex items-center gap-10 dark:bg-black dark:text-offWhite">
               <li>
                 <a
                   onClick={handleClick}

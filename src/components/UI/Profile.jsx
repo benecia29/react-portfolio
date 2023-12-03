@@ -68,7 +68,7 @@ const Profile = () => {
                     Phone
                   </span>
                   <h4 className="text-[16px] sm:text-[18px] text-smallTextColor dark:text-white mt-0 leading-6">
-                    +91 8850668524
+                    +91 9987327610
                   </h4>
                 </div>
               </div>

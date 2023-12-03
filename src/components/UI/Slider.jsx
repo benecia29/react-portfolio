@@ -1,12 +1,12 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-import { Autoplay, Pagination } from "swiper/modules";
+import { Autoplay} from "swiper/modules";
 import sliderimgs from "../../assets/data/sliderData";
 
 export default function Slider() {
-  const [sliders, setSliders] = useState(sliderimgs);
+  // const [sliders, setSliders] = useState(sliderimgs);
 
   return (
     <>
@@ -23,7 +23,7 @@ export default function Slider() {
           modules={[Autoplay]}
           className="mySwiper h-[50%]"
         >
-          {sliders.map((slide, index) => (
+          {sliderimgs.map((slide, index) => (
             <div
               key={index}
               className="group max-w-full sm:w-[48.5%] md:w-[31.8%] lg:w-[32.2%] relative z-[1]"

@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from "react";
-import data from "../../assets/data/portfolioData";
+import React, { useState } from "react";
+// import data from "../../assets/data/portfolioData";
 import portfolios from "../../assets/data/portfolioData";
 import Modal from "./Modal";
 
 const Portfolio = () => {
   const [nextItems, setNextItems] = useState(6);
-  const [portfolios, setPortfolios] = useState(data);
-  const [selectTab, setSelectTab] = useState("all");
+  // const [portfolios, setPortfolios] = useState(data);
+  // const [selectTab, setSelectTab] = useState("all");
   const [showModal, setShowModal] = useState(false);
   const [activeID, setActiveID] = useState(null);
 
@@ -19,29 +19,29 @@ const Portfolio = () => {
     setActiveID(id);
   };
 
-  useEffect(() => {
-    if (selectTab === "all") {
-      setPortfolios(data);
-    }
+  // useEffect(() => {
+  //   if (selectTab === "all") {
+  //     setPortfolios(data);
+  //   }
 
-    if (selectTab === "web-design") {
-      const filteredData = data.filter(
-        (item) => item.category === "Web Design"
-      );
-      setPortfolios(filteredData);
-    }
+  //   if (selectTab === "web-design") {
+  //     const filteredData = data.filter(
+  //       (item) => item.category === "Web Design"
+  //     );
+  //     setPortfolios(filteredData);
+  //   }
 
-    if (selectTab === "ux-design") {
-      const filteredData = data.filter((item) => item.category === "Ux");
-      setPortfolios(filteredData);
-    }
-  }, [selectTab]);
+  //   if (selectTab === "ux-design") {
+  //     const filteredData = data.filter((item) => item.category === "Ux");
+  //     setPortfolios(filteredData);
+  //   }
+  // }, [selectTab]);
 
   return (
     <section id="portfolio">
       <div className="container">
         <div className="flex items-center justify-between flex-wrap">
-          <div className="-mb-[25px] -mt-[18px] sm:mb-0 text-center">
+          <div className="-mb-[25px] -mt-[18px] sm:mt-[30px] sm:-mb-[10px] mx-auto">
             <h3 className="text-headingColor dark:text-offWhite text-[2rem] font-[700]">
               My Projects
             </h3>

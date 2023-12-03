@@ -47,7 +47,7 @@ const Contact = () => {
   return (
     <section id="contact" className="pb-16 sm:pt-8 pt-2">
       <div className="container">
-        <h2 className="text-headingColor dark:text-offWhite font-[700] text-[2.5rem] mb-4">
+        <h2 className="text-headingColor dark:text-offWhite font-[700] text-[2.5rem] mb-4 text-center sm:mt-[30px]">
           Get in touch
         </h2>
         <div className="md:flex justify-between items-center">

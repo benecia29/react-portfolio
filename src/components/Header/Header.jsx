@@ -80,7 +80,7 @@ const Header = (props) => {
 
           {/* *********menu start*********** */}
           <div className="menu" onClick={togglemenu} ref={menuRef}>
-            <ul className="flex items-center gap-10 dark:bg-black dark:text-offWhite">
+            <ul className="flex items-center gap-10 dark:bg-black dark:sm:bg-transparent dark:text-offWhite">
               <li>
                 <a
                   onClick={handleClick}

@@ -1,18 +1,24 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.7481c276.css",
-    "main.js": "/react-portfolio/static/js/main.c6e2f2cc.js",
-    "static/media/Frame 1.png": "/react-portfolio/static/media/Frame 1.ebc458609e57b486f22b.png",
+    "main.css": "/react-portfolio/static/css/main.925468ec.css",
+    "main.js": "/react-portfolio/static/js/main.7b32b785.js",
+    "static/media/Frame 1.png": "/react-portfolio/static/media/Frame 1.90fe7c3a858c81b83d5d.png",
     "static/media/remixicon.svg?t=1590207869815": "/react-portfolio/static/media/remixicon.9cedd2150922ead84869.svg",
+    "static/media/weather.png": "/react-portfolio/static/media/weather.8c606ef421480e66dd70.png",
     "static/media/resume.pdf": "/react-portfolio/static/media/resume.407532646b65710173ae.pdf",
     "static/media/landing page.png": "/react-portfolio/static/media/landing page.5d68764bc1d739757436.png",
     "static/media/remixicon.eot?t=1590207869815": "/react-portfolio/static/media/remixicon.5cb99e6cba5a4619063f.eot",
     "static/media/remixicon.ttf?t=1590207869815": "/react-portfolio/static/media/remixicon.f2616f597cf98f38d234.ttf",
     "static/media/Desktop - 1covid19.png": "/react-portfolio/static/media/Desktop - 1covid19.5fa56f8174869c9779d2.png",
     "static/media/remixicon.woff?t=1590207869815": "/react-portfolio/static/media/remixicon.8d09fa11700ed63cf96e.woff",
+    "static/media/ufo.jpg": "/react-portfolio/static/media/ufo.ac7a79d5541e1eea74ab.jpg",
     "static/media/remixicon.woff2?t=1590207869815": "/react-portfolio/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
+    "static/media/journal.jpg": "/react-portfolio/static/media/journal.d9bb091f59a3652bc2e1.jpg",
+    "static/media/tony-stark.jpg": "/react-portfolio/static/media/tony-stark.1986cf612f161aa2f5c9.jpg",
+    "static/media/rollaball.jpg": "/react-portfolio/static/media/rollaball.f6f9751ba29d56be1ba7.jpg",
     "static/media/benecia.jpg": "/react-portfolio/static/media/benecia.400661a0698a656275c4.jpg",
     "static/media/star.png": "/react-portfolio/static/media/star.1951cd3350e481169718.png",
+    "static/media/Restful-Web-Services.png": "/react-portfolio/static/media/Restful-Web-Services.b0d2f80234157737b953.png",
     "static/media/mongodb-original-wordmark.svg": "/react-portfolio/static/media/mongodb-original-wordmark.37c254895b58a4072247e428fc867bbe.svg",
     "static/media/mysql-original-wordmark.svg": "/react-portfolio/static/media/mysql-original-wordmark.de1f441d77fea35c2d6e1338f3cc540a.svg",
     "static/media/bootstrap-plain-wordmark.svg": "/react-portfolio/static/media/bootstrap-plain-wordmark.feff257efe1ae07f5d32657c6cd24605.svg",
@@ -28,11 +34,11 @@
     "static/media/git-scm-icon.svg": "/react-portfolio/static/media/git-scm-icon.6d27b5e0cde4ddb87e031ca706aa8350.svg",
     "static/media/figma-icon.svg": "/react-portfolio/static/media/figma-icon.25abb591c3b89b3fa15743b91482f4a6.svg",
     "static/media/unity3d-icon.svg": "/react-portfolio/static/media/unity3d-icon.9066f2857f0aad9351a01f4e45318b16.svg",
-    "main.7481c276.css.map": "/react-portfolio/static/css/main.7481c276.css.map",
-    "main.c6e2f2cc.js.map": "/react-portfolio/static/js/main.c6e2f2cc.js.map"
+    "main.925468ec.css.map": "/react-portfolio/static/css/main.925468ec.css.map",
+    "main.7b32b785.js.map": "/react-portfolio/static/js/main.7b32b785.js.map"
   },
   "entrypoints": [
-    "static/css/main.7481c276.css",
-    "static/js/main.c6e2f2cc.js"
+    "static/css/main.925468ec.css",
+    "static/js/main.7b32b785.js"
   ]
 }

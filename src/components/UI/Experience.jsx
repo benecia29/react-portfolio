@@ -1,12 +1,12 @@
 import React from "react";
 import frontendImg from "../../assets/images/front-end.png";
 import backendImg from "../../assets/images/backend.png";
-import uiImg from "../../assets/images/design.png";
-import appsImg from "../../assets/images/apps.png";
+// import uiImg from "../../assets/images/design.png";
+// import appsImg from "../../assets/images/apps.png";
 
 const Experience = () => {
   return (
-    <section id="services" className="pb-11 pt-5 sm:pt-10">
+    <section id="services" className="pb-11 pt-5 sm:mt-[40px]">
       <div className="container">
         <div className="text-center">
           <h2 className="text-headingColor dark:text-offWhite font-[700] text-[2.4rem] sm:mb-5 mb-0">

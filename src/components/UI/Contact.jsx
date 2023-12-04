@@ -69,7 +69,7 @@ const Contact = () => {
                 <input
                   type="text"
                   placeholder="Enter your name"
-                  className="w-full p-3 focus:outline-none rounded-[5px] dark:bg-darkGrey"
+                  className="w-full p-3 focus:outline-none rounded-[5px] dark:bg-darkGrey dark:text-offWhite"
                   name="user_name"
                   required
                 />
@@ -79,7 +79,7 @@ const Contact = () => {
                 <input
                   type="email"
                   placeholder="Enter your email"
-                  className="w-full p-3 focus:outline-none rounded-[5px] dark:bg-darkGrey"
+                  className="dark:text-offWhite w-full p-3 focus:outline-none rounded-[5px] dark:bg-darkGrey"
                   name="user_email"
                   required
                 />
@@ -89,7 +89,7 @@ const Contact = () => {
                 <input
                   type="text"
                   placeholder="Subject"
-                  className="w-full p-3 focus:outline-none rounded-[5px] dark:bg-darkGrey"
+                  className="dark:text-offWhite w-full p-3 focus:outline-none rounded-[5px] dark:bg-darkGrey"
                 />
               </div>
 
@@ -98,7 +98,7 @@ const Contact = () => {
                   type="text"
                   rows={3}
                   placeholder="Write your message"
-                  className="w-full p-3 focus:outline-none rounded-[5px] dark:bg-darkGrey"
+                  className="dark:text-offWhite w-full p-3 focus:outline-none rounded-[5px] dark:bg-darkGrey"
                   name="message"
                   required
                 />

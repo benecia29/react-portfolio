@@ -9,7 +9,7 @@ const Experience = () => {
     <section id="services" className="pb-11 pt-5 sm:mt-[40px]">
       <div className="container">
         <div className="text-center">
-          <h2 className="text-headingColor dark:text-offWhite font-[700] text-[2.4rem] sm:mb-5 mb-0">
+          <h2 className="text-headingColor dark:text-offWhite font-[700] text-[2rem] sm:mb-5 mb-0">
             My Internship Experience
           </h2>
         </div>

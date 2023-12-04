@@ -1,6 +1,6 @@
 import covid19 from "../images/Projects/Desktop - 1covid19.png";
-import soundWave from "../images/Projects/Frame 1.png";
-import boxChampy from "../images/Projects/landing page.png";
+import boxChampy from "../images/Projects/Frame 1.png";
+import soundWave from "../images/Projects/landing page.png";
 import ufo from "../images/Projects/ufo.jpg";
 import roll from "../images/Projects/rollaball.jpg";
 import rest from "../images/Projects/Restful-Web-Services.png";

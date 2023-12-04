@@ -1,53 +1,10 @@
-import React, { useRef } from "react";
-import emailjs from "@emailjs/browser";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import React from "react";
 
 const Contact = () => {
-  const form = useRef();
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs
-      .sendForm(
-        "service_qmz5d28",
-        "template_8udbg2m",
-        form.current,
-        "WrNe9Fjw_7xV2WxJH"
-      )
-      .then(
-        (result) => {
-          toast.success("Message sent!", {
-            position: "top-right",
-            autoClose: 3000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
-            theme: "light",
-          });
-        },
-        (error) => {
-          toast.error("Oh-uh! Some error occured", {
-            position: "top-right",
-            autoClose: 3000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
-            theme: "light",
-          });
-        }
-      );
-  };
-
   return (
     <section id="contact" className="pb-16 sm:pt-8 pt-2">
       <div className="container">
-        <h2 className="text-headingColor dark:text-offWhite font-[700] text-[2.5rem] mb-4 text-center sm:mt-[30px]">
+        <h2 className="text-headingColor dark:text-offWhite font-[700] text-[2rem] mb-4 text-center sm:mt-[30px]">
           Get in touch
         </h2>
         <div className="md:flex justify-between items-center">
@@ -63,8 +20,7 @@ const Contact = () => {
           </div>
 
           <div className="w-full mt-8 md:mt-0 md:w-1/2 sm:h-[450px] lg:flex items-center bg-indigo-100 dark:bg-black lg:px-8 py-8">
-            <form className="w-full" ref={form} onSubmit={sendEmail}>
-              {/* ref={form} onSubmit={sendEmail} */}
+            <form className="w-full" action="https://getform.io/f/f998a4af-8d38-4323-a991-87dacdd6b193" method="post">
               <div className="mb-5 mx-4 sm:mx-2 ">
                 <input
                   type="text"
@@ -90,6 +46,7 @@ const Contact = () => {
                   type="text"
                   placeholder="Subject"
                   className="dark:text-offWhite w-full p-3 focus:outline-none rounded-[5px] dark:bg-darkGrey"
+                  name="subject"
                 />
               </div>
 
@@ -109,18 +66,6 @@ const Contact = () => {
                   type="submit"
                   value="Send message"
                   required
-                />
-                <ToastContainer
-                  position="top-right"
-                  autoClose={3000}
-                  hideProgressBar={false}
-                  newestOnTop={false}
-                  closeOnClick
-                  rtl={false}
-                  pauseOnFocusLoss
-                  draggable
-                  pauseOnHover
-                  theme="light"
                 />
               </div>
             </form>

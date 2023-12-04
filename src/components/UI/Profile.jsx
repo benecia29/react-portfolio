@@ -10,7 +10,7 @@ const Profile = () => {
     <section id="profile" className="sm:pb-9 pb-2 pt-0">
       <div className="container">
         <div className="text-center">
-          <h2 className="text-headingColor dark:text-offWhite font-[700] text-[2.4rem] sm:mb-[200px]">
+          <h2 className="text-headingColor dark:text-offWhite font-[700] text-[2rem] sm:mb-[200px]">
             Personal Details & Qualifications
           </h2>
         </div>
@@ -34,20 +34,20 @@ const Profile = () => {
             {/* *************social media starts********** */}
             <div className="flex items-center gap-9 my-[25px] justify-center">
               <div className="flex items-center gap-2  font-[600] shadow bg-offWhite dark:bg-darkGrey dark:text-offWhite py-2 px-4 rounded-xl max-h-[40px] hover:bg-primaryColor dark:hover:bg-primaryColor hover:text-white ease-in duration-300">
-                <a href="#linkedin">
+                <a href="https://www.linkedin.com/in/benecia-crasta/">
                   <i className="ri-linkedin-line"></i>
                 </a>
               </div>
 
               <div className="flex items-center gap-2  font-[600] shadow bg-offWhite dark:bg-darkGrey dark:text-offWhite py-2 px-4 rounded-xl max-h-[40px] hover:bg-primaryColor dark:hover:bg-primaryColor hover:text-white ease-in duration-300">
-                <a href="#github">
+                <a href="https://github.com/benecia29">
                   <i className="ri-github-line"></i>
                 </a>
               </div>
 
               <div className="flex items-center gap-2  font-[600] shadow bg-offWhite dark:bg-darkGrey dark:text-offWhite py-2 px-4 rounded-xl max-h-[40px] hover:bg-primaryColor dark:hover:bg-primaryColor hover:text-white ease-in duration-300">
-                <a href="#twitter">
-                  <i className="ri-twitter-line"></i>
+                <a href="https://instagram.com/the_food_addicts_101?igshid=YTQwZjQ0NmI0OA==">
+                  <i className="ri-instagram-line"></i>
                 </a>
               </div>
             </div>

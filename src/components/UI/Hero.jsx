@@ -9,13 +9,14 @@ const Hero = () => {
       <div className="container pt-2">
         {" "}
         {/*parent*/}
-        <div className="md:flex items-center justify-between sm:flex-col md:flex-row">
+        <div className="md:flex items-center justify-between sm:flex-col lg:flex-row">
           {/* ***********hero left content********** */}
-          <div className="sm:w-[50%] md:basis-1/2">
+          <div className="lg:w-[50%] md:basis-1/2">
             <h5
               data-aos="fade-right"
               data-aos-duration="1500"
-              className="text-headingColor dark:text-darkText font-[600] text-[16px] mt-6"
+              className="text-headingColor dark:text-darkText font-[600] text-[16px]
+              mt-6 md:mx-[130px] lg:mx-0 md:mt-7 lg:mt-5"
             >
               Hello, welcome
             </h5>
@@ -23,7 +24,7 @@ const Hero = () => {
             <h1
               data-aos="fade-up"
               data-aos-duration="1500"
-              className="text-headingColor dark:text-darkText font-[800] text-[1.8rem] sm:text-[40px] leading-[35px] sm:leading-[46px] mt-5"
+              className="text-headingColor dark:text-darkText font-[800] text-[1.8rem] lg:text-[40px] md:text-[40px] leading-[35px] lg:leading-[46px] mt-5 md:mx-[130px] lg:mx-0 lg:mt-4"
             >
               I'm Benecia Crasta <br /> Aspiring{" "}
               <span>
@@ -47,13 +48,13 @@ const Hero = () => {
               data-aos="fade-up"
               data-aos-duration="1800"
               data-aos-delay="200"
-              className="flex flex-col items-center gap-2 mt-6"
+              className="flex flex-col items-center gap-2 mt-6 md:my-12 lg:md:my-6"
             >
               <div
                 data-aos="fade-up"
                 data-aos-duration="1800"
                 data-aos-delay="200"
-                className="flex flex-row items-center gap-9 my-3"
+                className="flex flex-row items-center gap-9 my-3 md:gap-[70px] lg:gap-12"
               >
                 <a href="#contact">
                   <button className="bg-primaryColor text-white font-[500] flex items-center gap-2 hover:bg-smallTextColor ease-in duration-300 py-2 px-2 rounded-[8px]">
@@ -71,7 +72,7 @@ const Hero = () => {
               <p
                 data-aos="fade-up"
                 data-aos-duration="1800"
-                className="sm:flex gap-2 text-headingColor dark:text-darkText mt-4 font-[500] leading-7 text-justify sm:pr-10"
+                className="sm:flex gap-2 text-headingColor dark:text-darkText mt-4 font-[500] leading-7 text-justify lg:pr-10 md:mx-[50px] lg:mx-0"
               >
                 As a 3rd-year Computer Science student, I'm passionate about web
                 development. My focus on creating user-friendly and visually
@@ -118,7 +119,7 @@ const Hero = () => {
             data-aos="fade-left"
             data-aos-duration="1800"
             data-aos-delay="200"
-            className="sm:basis-[55%] mt-[30px] sm:mt-0"
+            className="sm:basis-[55%] mt-[30px] lg:-mt-[25px] md:-mt-[30px]"
           >
             <img
               src={openquote}

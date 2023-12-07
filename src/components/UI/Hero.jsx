@@ -9,6 +9,7 @@ const Hero = () => {
       <div className="container pt-2">
         {" "}
         {/*parent*/}
+<<<<<<< HEAD
         <div className="md:flex items-center justify-between sm:flex-col lg:flex-row">
           {/* ***********hero left content********** */}
           <div className="lg:w-[50%] md:basis-1/2">
@@ -17,6 +18,18 @@ const Hero = () => {
               data-aos-duration="1500"
               className="text-headingColor dark:text-darkText font-[600] text-[16px]
               mt-6 md:mx-[130px] lg:mx-0 md:mt-7 lg:mt-5"
+=======
+        <div className="md:flex items-center justify-between md:flex-col lg:flex-row">
+        {/* <div className="md:flex items-center justify-between sm:flex-col md:flex-row"> */}
+          {/* ***********hero left content********** */}
+          <div className="md:w-full md:px-24 lg:px-0 md:basis-1/2">
+          {/* <div className="sm:w-[50%] md:basis-1/2"> */}
+            <h5
+              data-aos="fade-right"
+              data-aos-duration="1500"
+              className="text-headingColor dark:text-darkText font-[600] text-[16px] 
+              mt-6 md:pl-[50px]"
+>>>>>>> a91af23670dd2ab90d59206d7e4884469cad010c
             >
               Hello, welcome
             </h5>
@@ -24,7 +37,11 @@ const Hero = () => {
             <h1
               data-aos="fade-up"
               data-aos-duration="1500"
+<<<<<<< HEAD
               className="text-headingColor dark:text-darkText font-[800] text-[1.8rem] lg:text-[40px] md:text-[40px] leading-[35px] lg:leading-[46px] mt-5 md:mx-[130px] lg:mx-0 lg:mt-4"
+=======
+              className="text-headingColor dark:text-darkText font-[800] text-[1.8rem] sm:text-[40px] leading-[35px] sm:leading-[46px] mt-5 md:pl-[50px]"
+>>>>>>> a91af23670dd2ab90d59206d7e4884469cad010c
             >
               I'm Benecia Crasta <br /> Aspiring{" "}
               <span>
@@ -54,7 +71,11 @@ const Hero = () => {
                 data-aos="fade-up"
                 data-aos-duration="1800"
                 data-aos-delay="200"
+<<<<<<< HEAD
                 className="flex flex-row items-center gap-9 my-3 md:gap-[70px] lg:gap-12"
+=======
+                className="flex flex-row items-center gap-9 my-3 md:gap-[70px]"
+>>>>>>> a91af23670dd2ab90d59206d7e4884469cad010c
               >
                 <a href="#contact">
                   <button className="bg-primaryColor text-white font-[500] flex items-center gap-2 hover:bg-smallTextColor ease-in duration-300 py-2 px-2 rounded-[8px]">
@@ -72,7 +93,11 @@ const Hero = () => {
               <p
                 data-aos="fade-up"
                 data-aos-duration="1800"
+<<<<<<< HEAD
                 className="sm:flex gap-2 text-headingColor dark:text-darkText mt-4 font-[500] leading-7 text-justify lg:pr-10 md:mx-[50px] lg:mx-0"
+=======
+                className="sm:flex gap-2 text-headingColor dark:text-darkText mt-4 font-[500] leading-7 text-justify sm:pr-10 md:-mx-[85px]"
+>>>>>>> a91af23670dd2ab90d59206d7e4884469cad010c
               >
                 As a 3rd-year Computer Science student, I'm passionate about web
                 development. My focus on creating user-friendly and visually

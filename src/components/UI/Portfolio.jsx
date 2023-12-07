@@ -37,11 +37,15 @@ const Portfolio = () => {
               className="group max-w-full sm:w-[48.5%] md:w-[31.8%] lg:w-[32.2%] relative z-[1]"
             >
               <figure>
+<<<<<<< HEAD
                 <img
                   className="rounded-[8px] h-[220px] lg:h-[210px] md:h-[160px] w-[400px] lg:w-[350px] md:w-[320px]"
                   src={portfolio.imgUrl}
                   alt=""
                 />
+=======
+                <img className="rounded-[8px] h-[220px] lg:h-[210px] md:h-[160px] w-[400px] lg:w-[350px] md:w-[320px]" src={portfolio.imgUrl} alt=""/>
+>>>>>>> a91af23670dd2ab90d59206d7e4884469cad010c
               </figure>
 
               <div className="w-full h-full  bg-primaryColor bg-opacity-40 absolute top-0 left-0 z-[5] hidden group-hover:block">

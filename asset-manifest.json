@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.f21730ad.css",
-    "main.js": "/react-portfolio/static/js/main.f47397f2.js",
+    "main.css": "/react-portfolio/static/css/main.b8acdea9.css",
+    "main.js": "/react-portfolio/static/js/main.75d6e9a9.js",
     "static/media/Frame 1.png": "/react-portfolio/static/media/Frame 1.90fe7c3a858c81b83d5d.png",
     "static/media/remixicon.svg?t=1590207869815": "/react-portfolio/static/media/remixicon.9cedd2150922ead84869.svg",
     "static/media/weather.png": "/react-portfolio/static/media/weather.8c606ef421480e66dd70.png",
@@ -34,11 +34,11 @@
     "static/media/git-scm-icon.svg": "/react-portfolio/static/media/git-scm-icon.6d27b5e0cde4ddb87e031ca706aa8350.svg",
     "static/media/figma-icon.svg": "/react-portfolio/static/media/figma-icon.25abb591c3b89b3fa15743b91482f4a6.svg",
     "static/media/unity3d-icon.svg": "/react-portfolio/static/media/unity3d-icon.9066f2857f0aad9351a01f4e45318b16.svg",
-    "main.f21730ad.css.map": "/react-portfolio/static/css/main.f21730ad.css.map",
-    "main.f47397f2.js.map": "/react-portfolio/static/js/main.f47397f2.js.map"
+    "main.b8acdea9.css.map": "/react-portfolio/static/css/main.b8acdea9.css.map",
+    "main.75d6e9a9.js.map": "/react-portfolio/static/js/main.75d6e9a9.js.map"
   },
   "entrypoints": [
-    "static/css/main.f21730ad.css",
-    "static/js/main.f47397f2.js"
+    "static/css/main.b8acdea9.css",
+    "static/js/main.75d6e9a9.js"
   ]
 }

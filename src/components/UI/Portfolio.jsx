@@ -19,24 +19,6 @@ const Portfolio = () => {
     setActiveID(id);
   };
 
-  // useEffect(() => {
-  //   if (selectTab === "all") {
-  //     setPortfolios(data);
-  //   }
-
-  //   if (selectTab === "web-design") {
-  //     const filteredData = data.filter(
-  //       (item) => item.category === "Web Design"
-  //     );
-  //     setPortfolios(filteredData);
-  //   }
-
-  //   if (selectTab === "ux-design") {
-  //     const filteredData = data.filter((item) => item.category === "Ux");
-  //     setPortfolios(filteredData);
-  //   }
-  // }, [selectTab]);
-
   return (
     <section id="portfolio">
       <div className="container">
@@ -55,7 +37,7 @@ const Portfolio = () => {
               className="group max-w-full sm:w-[48.5%] md:w-[31.8%] lg:w-[32.2%] relative z-[1]"
             >
               <figure>
-                <img className="rounded-[8px] h-[220px] w-[400px]" src={portfolio.imgUrl} alt=""/>
+                <img className="rounded-[8px] h-[220px] lg:h-[210px] md:h-[160px] w-[400px] lg:w-[350px] md:w-[320px]" src={portfolio.imgUrl} alt=""/>
               </figure>
 
               <div className="w-full h-full  bg-primaryColor bg-opacity-40 absolute top-0 left-0 z-[5] hidden group-hover:block">

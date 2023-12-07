@@ -20,7 +20,7 @@ const Profile = () => {
             <div className="absolute sm:-mt-[130px] -mt-[120px] sm:left-[84px] left-[63px]">
               <img
                 src={profilePic}
-                className="shadow-xl sm:w-[230px] w-[200px] sm:h-[230px] h-[200px] drop-shadow-xl rounded-[20px] left-[15%] sm:-ml-[8px]"
+                className="shadow-xl sm:w-[230px] w-[200px] sm:h-[230px] h-[200px] drop-shadow-xl rounded-[20px] left-[15%] sm:-ml-[8px] "
                 alt=""
               />
             </div>

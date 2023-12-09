@@ -10,17 +10,18 @@ const Profile = () => {
     <section id="profile" className="sm:pb-9 pb-2 pt-0">
       <div className="container">
         <div className="text-center">
-          <h2 className="text-headingColor dark:text-offWhite font-[700] text-[2rem] sm:mb-[200px]">
+          <h2 className="text-headingColor dark:text-offWhite font-[700] text-[2rem] 
+          lg:mb-[200px] md:mb-[170px]">
             Personal Details & Qualifications
           </h2>
         </div>
-        <div className="sm:flex items-center justify-around sm:-mt-[170px]">
+        <div className="sm:flex items-center justify-around lg:-mt-[170px] md:-mt-[160px]">
           {/* ***********profile card starts*************** */}
           <main className="sm:w-[380px] my-5 mt-[130px] h-[90%] mx-3 sm:mx-1 rounded-2xl sticky shadow-2xl bg-white dark:bg-black">
-            <div className="absolute sm:-mt-[130px] -mt-[120px] sm:left-[84px] left-[63px]">
+            <div className="absolute lg:-mt-[130px] md:-mt-[110px] -mt-[120px] lg:left-[84px] md:left-[82px] left-[63px]">
               <img
                 src={profilePic}
-                className="shadow-xl sm:w-[230px] w-[200px] sm:h-[230px] h-[200px] drop-shadow-xl rounded-[20px] left-[15%] sm:-ml-[8px]"
+                className="shadow-xl lg:w-[230px] md:w-[230px] w-[200px] lg:h-[230px] md:h-[210px] h-[200px] drop-shadow-xl rounded-[20px] left-[15%] lg:-ml-[8px] md:-ml-[35px]"
                 alt=""
               />
             </div>
@@ -58,7 +59,7 @@ const Profile = () => {
               {/* ********phone********* */}
               <div className="flex gap-3 sm:gap-5">
                 <div className="flex items-center gap-2 mt-[6px] font-[600] shadow-xl bg-white dark:bg-black dark:text-offWhite dark:hover:bg-primaryColor dark:hover:text-white px-3 rounded-xl max-h-[40px] hover:bg-primaryColor  hover:text-white ease-in duration-300">
-                  <a href="#github">
+                  <a href="#cellphone">
                     <i class="ri-cellphone-line"></i>
                   </a>
                 </div>
@@ -134,7 +135,7 @@ const Profile = () => {
             </div>
             {/* *******personal details ends******** */}
 
-            <button className="px-4 py-2 my-6 ml-[95px] sm:ml-[122px] font-semibold text-sm text-center  bg-smallTextColor text-white hover:bg-headingColor dark:hover:bg-[#244c7f] rounded-full shadow-sm">
+            <button className="px-4 py-2 my-6 ml-[95px] lg:ml-[122px] md:ml-[75px] font-semibold text-sm text-center  bg-smallTextColor text-white hover:bg-headingColor dark:hover:bg-[#244c7f] rounded-full shadow-sm">
               <a href={resume} download>
                 <span className="mx-2 inline">Download CV</span>
               </a>
@@ -143,7 +144,7 @@ const Profile = () => {
           {/* ***********profile card ends*************** */}
 
           {/* ***********right content starts*************** */}
-          <div className="my-5 mt-[50px] sm:mt-[135px] h-[90%] mx-3 sm:mx-1 rounded-2xl sticky shadow-2xl bg-white dark:bg-black px-3 py-3 sm:px-5 sm:py-7">
+          <div className="my-5 mt-[50px] lg:mt-[135px] md:mt-[50px] h-[90%] mx-3 sm:mx-1 rounded-2xl sticky shadow-2xl bg-white dark:bg-black px-3 py-3 lg:px-5 sm:py-7">
             <div className="flex gap-2 items-center">
               <frame className="h-10 w-8 sm:h-6 sm:w-7 bg-transparent">
                 <img src={star} alt="" className="h-[20px] w-[30px] sm:h-[22px]"/>

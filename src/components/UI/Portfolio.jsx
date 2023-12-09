@@ -1,12 +1,9 @@
 import React, { useState } from "react";
-// import data from "../../assets/data/portfolioData";
 import portfolios from "../../assets/data/portfolioData";
 import Modal from "./Modal";
 
 const Portfolio = () => {
   const [nextItems, setNextItems] = useState(6);
-  // const [portfolios, setPortfolios] = useState(data);
-  // const [selectTab, setSelectTab] = useState("all");
   const [showModal, setShowModal] = useState(false);
   const [activeID, setActiveID] = useState(null);
 

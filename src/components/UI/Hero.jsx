@@ -74,7 +74,7 @@ const Hero = () => {
                 data-aos-duration="1800"
                 className="sm:flex gap-2 text-headingColor dark:text-darkText mt-4 font-[500] leading-7 text-justify lg:pr-10 md:mx-[50px] lg:mx-0"
               >
-                As a BSc. Computer Science graduate, I'm deeply interested in data and business analytics alongside project management. I'm committed to deriving insightful analytics solutions and data-driven strategies to optimize business outcomes. My goal is to combine technical proficiency with effective leadership to excel in analytics and project management roles, where I can tackle complex challenges with adaptability and innovation.
+                As a BSc. Computer Science graduate, I'm deeply interested in data and business analytics alongside project management. My goal is to combine technical proficiency with effective leadership to excel in analytics and project management roles, where I can tackle complex challenges with adaptability and innovation.
               </p>
 
               <div className="flex items-center gap-9 mt-6">

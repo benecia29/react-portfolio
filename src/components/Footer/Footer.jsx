@@ -9,8 +9,7 @@ const Footer = () => {
         <div className="sm:flex items-center justify-center md:gap-10">
           <div className="w-full sm:w-1/2" >
             <h2 className="sm:-mt-7 text-[26px] leading-10 text-white font-[600] mb-5 sm:mb-7 md:text-[2rem]">
-              Looking for a dedicated employee to elevate your company's
-              success?
+              Looking for a dedicated employee to optimize your company's business outcomes?
             </h2>
             <a href="#contact">
               <button className="bg-primaryColor text-white font-[500] flex items-center gap-2 hover:bg-smallTextColor ease-in duration-300 py-2 px-4 rounded-[8px] sm:mt-4">

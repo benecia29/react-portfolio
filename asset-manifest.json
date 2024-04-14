@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.4e0ec41e.css",
-    "main.js": "/react-portfolio/static/js/main.300df53c.js",
+    "main.js": "/react-portfolio/static/js/main.a6a89613.js",
     "static/media/Frame 1.png": "/react-portfolio/static/media/Frame 1.90fe7c3a858c81b83d5d.png",
     "static/media/final-certificate.png": "/react-portfolio/static/media/final-certificate.3b010a411a5de42a43bb.png",
     "static/media/travelcasa.png": "/react-portfolio/static/media/travelcasa.0ac01a0058c94b258c7a.png",
@@ -38,10 +38,10 @@
     "static/media/figma-icon.svg": "/react-portfolio/static/media/figma-icon.25abb591c3b89b3fa15743b91482f4a6.svg",
     "static/media/unity3d-icon.svg": "/react-portfolio/static/media/unity3d-icon.9066f2857f0aad9351a01f4e45318b16.svg",
     "main.4e0ec41e.css.map": "/react-portfolio/static/css/main.4e0ec41e.css.map",
-    "main.300df53c.js.map": "/react-portfolio/static/js/main.300df53c.js.map"
+    "main.a6a89613.js.map": "/react-portfolio/static/js/main.a6a89613.js.map"
   },
   "entrypoints": [
     "static/css/main.4e0ec41e.css",
-    "static/js/main.300df53c.js"
+    "static/js/main.a6a89613.js"
   ]
 }

@@ -30,9 +30,9 @@ const Hero = () => {
               <span>
                 <Typewriter
                   words={[
-                    "Data Analyst",
+                    "Data Analyst.",
                     "Project Manager.",
-                    "BI Analyst",
+                    "Business Intelligence Analyst.",
                   ]}
                   loop={true}
                   cursor

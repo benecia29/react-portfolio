@@ -84,36 +84,6 @@ const portfolios = [
   },
   {
     id: "08",
-    imgUrl: soundWave,
-    category: "Web Design",
-    title: "Music App Design",
-    description:
-      "SoundWave is the UI design of a music application. It has 3 webpages: homepage, signup and an explore page. I have also implemented prototyping in this design.",
-    technologies: ["Figma"],
-    siteUrl: "https://www.figma.com/file/UjmK0FNDlAxGadqrKe2FFA/SoundWave?type=design&node-id=0%3A1&mode=design&t=nnTHakt4W8eKVrJF-1",
-  },
-  {
-    id: "09",
-    imgUrl: boxChampy,
-    category: "Web Design",
-    title: "BoxChampy Homepage Design",
-    description:
-      "This is the UI design of the homepage of the website of a boxing training center.",
-    technologies: ["Figma"],
-    siteUrl: "https://www.figma.com/file/d4wBpyBeKNU2fyT2oojTDJ/Boxing?type=design&node-id=15-35&mode=design",
-  },
-  {
-    id: "10",
-    imgUrl: covid19,
-    category: "Web Design",
-    title: "Covid-19 Brochure Design",
-    description:
-      "This webdesign gives information regarding covid-19.",
-    technologies: ["Figma"],
-    siteUrl: "https://www.figma.com/file/o6z1dEtp27G4ctX6VGbFZd/CovidDesign?type=design&node-id=6%3A2&mode=design&t=f9t2P3PIR8KmCODN-1",
-  },
-  {
-    id: "11",
     imgUrl: ufo,
     category: "Games",
     title: "2D UFO Game",
@@ -123,7 +93,7 @@ const portfolios = [
     siteUrl: "https://drive.google.com/drive/folders/1PVqnP-MSzybzyAOh_w79KClFiu7CmYxK",
   },
   {
-    id: "12",
+    id: "09",
     imgUrl: roll,
     category: "Games",
     title: "3D Roll A Ball Game",
@@ -131,6 +101,36 @@ const portfolios = [
       "Here's another game that I developed using Unity. 'Roll a Ball'—a 3D game where players control a ball, collecting pickups while the count updates their progress. Upon gathering all 10 pickups, a 'You Win!' message celebrates their victory. A great dive into game development and Unity, showcasing gameplay mechanics and user interaction.",
     technologies: ["Unity", "Java"],
     siteUrl: "https://drive.google.com/drive/folders/1FFgSmlvJ6ppk-DBEL00fyqd4Lrx_-O-3",
+  },
+  {
+    id: "10",
+    imgUrl: soundWave,
+    category: "Web Design",
+    title: "Music App Design",
+    description:
+      "SoundWave is the UI design of a music application. It has 3 webpages: homepage, signup and an explore page. I have also implemented prototyping in this design.",
+    technologies: ["Figma"],
+    siteUrl: "https://www.figma.com/file/UjmK0FNDlAxGadqrKe2FFA/SoundWave?type=design&node-id=0%3A1&mode=design&t=nnTHakt4W8eKVrJF-1",
+  },
+  {
+    id: "11",
+    imgUrl: boxChampy,
+    category: "Web Design",
+    title: "BoxChampy Homepage Design",
+    description:
+      "This is the UI design of the homepage of the website of a boxing training center.",
+    technologies: ["Figma"],
+    siteUrl: "https://www.figma.com/file/d4wBpyBeKNU2fyT2oojTDJ/Boxing?type=design&node-id=15-35&mode=design",
+  },
+  {
+    id: "12",
+    imgUrl: covid19,
+    category: "Web Design",
+    title: "Covid-19 Brochure Design",
+    description:
+      "This webdesign gives information regarding covid-19.",
+    technologies: ["Figma"],
+    siteUrl: "https://www.figma.com/file/o6z1dEtp27G4ctX6VGbFZd/CovidDesign?type=design&node-id=6%3A2&mode=design&t=f9t2P3PIR8KmCODN-1",
   },
 ];
 

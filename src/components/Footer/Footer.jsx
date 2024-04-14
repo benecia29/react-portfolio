@@ -21,9 +21,7 @@ const Footer = () => {
 
           <div className="w-full sm:w-1/2">
             <p className="text-gray-300 leading-7 mt-4 sm:mt-0 text-justify">
-              Passionate about web development and aspiring to lead as a Project
-              Manager. Skilled in coding and design, I create user-friendly
-              websites. Ready to tackle new challenges and drive innovation.
+              Passionate about data and business analytics and aspiring to lead as a Project Manager. Skilled in problem-solving, effective communication, data management and analysis. Ready to tackle new challenges and drive innovation.
             </p>
 
             {/* **********follow me and socials starts*********** */}

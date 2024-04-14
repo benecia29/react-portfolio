@@ -7,20 +7,43 @@ import rest from "../images/Projects/Restful-Web-Services.png";
 import jarvis from "../images/Projects/tony-stark.jpg";
 import weather from "../images/Projects/weather.png";
 import journal from "../images/Projects/journal.jpg";
+import prob_solv from "../images/Projects/problem-solving.jpg";
+import travelcasa from "../images/Projects/travelcasa.png";
+import pjm from "../images/Projects/final-certificate.png";
 
 const portfolios = [
   {
-    id: "01",
-    imgUrl: boxChampy,
-    category: "Web Design",
-    title: "BoxChampy Homepage Design",
+    id: "04",
+    imgUrl: travelcasa,
+    category: "Data Analyst",
+    title: "TravelCasa - Find Your Home Away from Home",
     description:
-      "This is the UI design of the homepage of the website of a boxing training center.",
-    technologies: ["Figma"],
-    siteUrl: "https://www.figma.com/file/d4wBpyBeKNU2fyT2oojTDJ/Boxing?type=design&node-id=15%3A35&mode=design&t=e3O7Ii4EpAtHoZey-1",
+      "This is an online booking and rental system. It facilitates travelers in finding lodging options and enables property owners to list their properties for rent. Users can search for listings, filter results, favorite preferred lodges, book reservations, and cancel bookings if needed. Property owners can also manage their listings, including adding and deleting properties. Additionally, the system generates reports of reservations for users.",
+    technologies: ["MongoDB", "Reactjs", "Nextjs", "Tailwind CSS", "Prisma ORM"],
+    siteUrl: "https://github.com/benecia29/travelcasa-project",
+  },
+  {
+    id: "01",
+    imgUrl: prob_solv,
+    category: "Data Analyst",
+    title: "Problem-Solving techniques",
+    description:
+      "These are all the assignments and activities that I did during the problem-solving course that I completed from Udemy.",
+    technologies: ["MicroSoft Excel", "Problem-Solving Diagrams"],
+    siteUrl: "https://drive.google.com/drive/folders/1suYmgmyQwh51YI16qwg_1YdhXX0nwFMC?usp=sharing",
   },
   {
     id: "02",
+    imgUrl: pjm,
+    category: "Data Analyst",
+    title: "Project Management Documentation",
+    description:
+      "These are all the assignments and activities that I did during the Google PJM Professional Certification course that I completed from Coursera.",
+    technologies: ["MS Excel", "Presentation", "Charts and diagrams", "Project documnetation"],
+    siteUrl: "https://drive.google.com/drive/folders/13ExBMTSZaK7jpQaeSJoCFqMopoapcoKM?usp=sharing",
+  },
+  {
+    id: "07",
     imgUrl: soundWave,
     category: "Web Design",
     title: "Music App Design",
@@ -30,7 +53,7 @@ const portfolios = [
     siteUrl: "https://www.figma.com/file/UjmK0FNDlAxGadqrKe2FFA/SoundWave?type=design&node-id=0%3A1&mode=design&t=nnTHakt4W8eKVrJF-1",
   },
   {
-    id: "03",
+    id: "09",
     imgUrl: covid19,
     category: "Web Design",
     title: "Covid-19 Brochure Design",
@@ -40,7 +63,17 @@ const portfolios = [
     siteUrl: "https://www.figma.com/file/o6z1dEtp27G4ctX6VGbFZd/CovidDesign?type=design&node-id=6%3A2&mode=design&t=f9t2P3PIR8KmCODN-1",
   },
   {
-    id: "04",
+    id: "08",
+    imgUrl: boxChampy,
+    category: "Web Design",
+    title: "BoxChampy Homepage Design",
+    description:
+      "This is the UI design of the homepage of the website of a boxing training center.",
+    technologies: ["Figma"],
+    siteUrl: "https://www.figma.com/file/d4wBpyBeKNU2fyT2oojTDJ/Boxing?type=design&node-id=15-35&mode=design",
+  },
+  {
+    id: "10",
     imgUrl: ufo,
     category: "Games",
     title: "2D UFO Game",
@@ -50,7 +83,7 @@ const portfolios = [
     siteUrl: "https://drive.google.com/drive/folders/1PVqnP-MSzybzyAOh_w79KClFiu7CmYxK",
   },
   {
-    id: "05",
+    id: "11",
     imgUrl: roll,
     category: "Games",
     title: "3D Roll A Ball Game",
@@ -60,7 +93,7 @@ const portfolios = [
     siteUrl: "https://drive.google.com/drive/folders/1FFgSmlvJ6ppk-DBEL00fyqd4Lrx_-O-3",
   },
   {
-    id: "06",
+    id: "07",
     imgUrl: rest,
     category: "Api",
     title: "RESTful API",
@@ -70,7 +103,7 @@ const portfolios = [
     siteUrl: "https://github.com/benecia29/restful-web-service",
   },
   {
-    id: "07",
+    id: "03",
     imgUrl: jarvis,
     category: "Ai",
     title: "Desktop Virtual Assistant",
@@ -80,7 +113,7 @@ const portfolios = [
     siteUrl: "https://drive.google.com/drive/folders/1UVeDIxVGL-TnvXsetd-lPqBrHd2_DOWt",
   },
   {
-    id: "08",
+    id: "06",
     imgUrl: weather,
     category: "Website",
     title: "Weather App",
@@ -90,7 +123,7 @@ const portfolios = [
     siteUrl: "https://github.com/benecia29/Snowphoria",
   },
   {
-    id: "09",
+    id: "05",
     imgUrl: journal,
     category: "Website",
     title: "Online Journal Website",

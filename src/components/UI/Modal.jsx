@@ -24,7 +24,7 @@ const Modal = ({ activeID, setShowModal }) => {
 
           <div className="mt-5 flex items-center gap-3 flex-wrap">
             <h4 className="text-headingColor text-[18px] trxt-[700] dark:text-offWhite">
-              Technologies:
+              Skills:
             </h4>
 
             {portfolio.technologies.map((item, index) => (

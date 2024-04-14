@@ -69,7 +69,7 @@ const Profile = () => {
                     Phone
                   </span>
                   <h4 className="text-[16px] sm:text-[18px] text-smallTextColor dark:text-white mt-0 leading-6">
-                    +91 9987327610
+                    +91 8850668524
                   </h4>
                 </div>
               </div>
@@ -168,7 +168,7 @@ const Profile = () => {
                 <img src={star} alt="" className="h-[20px] w-[30px] sm:h-[22px] sm:w-[28px]"/>
               </frame>
               <h2 className="px-2 py-2 text-smallTextColor dark:text-lightGrey font-[600] text-[18px] sm:text-[21px]">
-                Assistant Contingent Leader at Bhavan's College.
+                Assistant Contingent Leader (ACL).
               </h2>
             </div>
 
@@ -177,14 +177,7 @@ const Profile = () => {
                 <img src={star} alt="" className="h-[20px] w-[30px] sm:h-[22px] sm:w-[29px]"/>
               </frame>
               <h2 className="px-2 py-2 text-smallTextColor dark:text-lightGrey font-[600] text-[18px] sm:text-[21px]">
-                Social media manager{" "}
-                <a
-                  href="https://instagram.com/bhavans.cultural?igshid=YTQwZjQ0NmI0OA=="
-                  className="text-[#2d6195] dark:text-darkText"
-                >
-                  @bhavans.cultural
-                </a>{" "}
-                on Instagram.
+                Ranker in class with 9.5 CGPA
               </h2>
             </div>
 
@@ -203,12 +196,12 @@ const Profile = () => {
 
                   <li className="flex gap-4 px-2 py-2 text-smallTextColor dark:text-lightGrey font-[600] text-[18px]">
                     <img src={rightArrow} alt="" className="h-[20px] w-[25px] mt-1" />
-                    Organizational skills
+                    Effective communication
                   </li>
 
                   <li className="flex gap-4 px-2 py-2 text-smallTextColor dark:text-lightGrey font-[600] text-[18px]">
                     <img src={rightArrow} alt="" className="h-[20px] w-[25px] mt-1"/>
-                    Effective communication
+                    Leveraging AI tools
                   </li>
                 </ul>
               </div>
@@ -216,17 +209,17 @@ const Profile = () => {
                 <ul>
                   <li className="flex gap-4 px-2 py-2 text-smallTextColor dark:text-lightGrey font-[600] text-[18px]">
                     <img src={rightArrow} alt="" className="h-[20px] w-[25px] mt-1" />
-                    Leveraging AI tools
+                    Problem-solving
                   </li>
 
                   <li className="flex gap-4 px-2 py-2 text-smallTextColor dark:text-lightGrey font-[600] text-[18px]">
                     <img src={rightArrow} alt="" className="h-[20px] w-[25px] mt-1" />
-                    Web development
+                    Data Visualization
                   </li>
 
                   <li className="flex gap-4 px-2 py-2 text-smallTextColor dark:text-lightGrey font-[600] text-[18px]">
                     <img src={rightArrow} alt="" className="h-[20px] w-[25px] mt-1" />
-                    UI/UX designs
+                    Attention to detail
                   </li>
                 </ul>
               </div>

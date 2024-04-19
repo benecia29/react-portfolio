@@ -32,7 +32,7 @@ const Hero = () => {
                   words={[
                     "Data Analyst.",
                     "Project Manager.",
-                    "Business Intelligence Analyst.",
+                    "BI Analyst.",
                   ]}
                   loop={true}
                   cursor

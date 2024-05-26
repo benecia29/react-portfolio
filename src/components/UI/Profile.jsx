@@ -177,7 +177,7 @@ const Profile = () => {
                 <img src={star} alt="" className="h-[20px] w-[30px] sm:h-[22px] sm:w-[29px]"/>
               </frame>
               <h2 className="px-2 py-2 text-smallTextColor dark:text-lightGrey font-[600] text-[18px] sm:text-[21px]">
-                Ranker in class with 9.5 CGPA
+                Ranked 2nd in class with 9.61/10 CGPA
               </h2>
             </div>
 

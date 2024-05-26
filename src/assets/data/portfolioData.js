@@ -10,10 +10,54 @@ import journal from "../images/Projects/journal.jpg";
 import prob_solv from "../images/Projects/problem-solving.jpg";
 import travelcasa from "../images/Projects/travelcasa.png";
 import pjm from "../images/Projects/final-certificate.png";
+import excel from "../images/Projects/excel.png";
+import sql from "../images/Projects/workbench.jpg";
+import tableau from "../images/Projects/tableau2.png";
+import powerbi from "../images/Projects/powerbi3.png";
 
 const portfolios = [
   {
     id: "01",
+    imgUrl: sql,
+    category: "Data Analyst",
+    title: "Data cleaning & EDA in MySQL",
+    description:
+      "In this project, I followed a procedure for data cleaning such as creating backups, removing duplicates and standardizing data, removing irrelevant data, handling missing values, etc. After this, I performed an exploratory data analysis.",
+    technologies: ["MySQL"],
+    siteUrl: "https://drive.google.com/drive/folders/1s-N04mwW2yf2OqAIj5DyHECqgiCA9EsX?usp=sharing",
+  },
+  {
+    id: "02",
+    imgUrl: excel,
+    category: "Data Analyst",
+    title: "Creating interactive dashboard in Excel",
+    description:
+      "I built an interactive dashboard by leveraging my knowledge in Excel formulae, functions, data cleaning, conditional formatting, charts, pivot tables, XLOOKUP, etc.",
+    technologies: ["Microsoft Excel"],
+    siteUrl: "https://drive.google.com/drive/folders/12Pgyd5fvXTVNJN9xoC_z6YhNlAl3azE3?usp=sharing",
+  },
+  {
+    id: "03",
+    imgUrl: tableau,
+    category: "Data Analyst",
+    title: "Data visualization using Tableau",
+    description:
+      "Created various visualizations and dashboard in Tableau.",
+    technologies: ["Tableau"],
+    siteUrl: "https://drive.google.com/drive/folders/1Vl7ZYd1HMJsWWr4w9BlRMbiKXuT9Vl67?usp=sharing",
+  },
+  {
+    id: "04",
+    imgUrl: powerbi,
+    category: "Data Analyst",
+    title: "Data visualization using Power BI",
+    description:
+      "I built this project by leveraging various tools in Power BI such as bins & lists, conditional formatting, DAX, drill down, power query, relationship and visualizations.",
+    technologies: ["Power BI"],
+    siteUrl: "https://drive.google.com/drive/folders/1qeuNFJNvaG2QY2hef5Wq0lOrzz9fRuYy?usp=sharing",
+  },
+  {
+    id: "05",
     imgUrl: prob_solv,
     category: "Data Analyst",
     title: "Problem-Solving techniques",
@@ -23,7 +67,7 @@ const portfolios = [
     siteUrl: "https://drive.google.com/drive/folders/1suYmgmyQwh51YI16qwg_1YdhXX0nwFMC?usp=sharing",
   },
   {
-    id: "02",
+    id: "06",
     imgUrl: pjm,
     category: "Data Analyst",
     title: "Project Management Documentation",
@@ -33,7 +77,7 @@ const portfolios = [
     siteUrl: "https://drive.google.com/drive/folders/13ExBMTSZaK7jpQaeSJoCFqMopoapcoKM?usp=sharing",
   },
   {
-    id: "03",
+    id: "07",
     imgUrl: jarvis,
     category: "Ai",
     title: "Desktop Virtual Assistant",
@@ -43,7 +87,7 @@ const portfolios = [
     siteUrl: "https://drive.google.com/drive/folders/1UVeDIxVGL-TnvXsetd-lPqBrHd2_DOWt",
   },
   {
-    id: "04",
+    id: "08",
     imgUrl: travelcasa,
     category: "Data Analyst",
     title: "TravelCasa - Find Your Home Away from Home",
@@ -53,7 +97,7 @@ const portfolios = [
     siteUrl: "https://github.com/benecia29/travelcasa-project",
   },
   {
-    id: "05",
+    id: "09",
     imgUrl: journal,
     category: "Website",
     title: "Online Journal Website",
@@ -63,7 +107,7 @@ const portfolios = [
     siteUrl: "https://drive.google.com/drive/folders/11j2RSa2IxDyDEU4gCnqq53-2Q27uvsSk",
   },
   {
-    id: "06",
+    id: "10",
     imgUrl: weather,
     category: "Website",
     title: "Weather App",
@@ -73,7 +117,7 @@ const portfolios = [
     siteUrl: "https://github.com/benecia29/Snowphoria",
   },
   {
-    id: "07",
+    id: "11",
     imgUrl: rest,
     category: "Api",
     title: "RESTful API",
@@ -83,7 +127,7 @@ const portfolios = [
     siteUrl: "https://github.com/benecia29/restful-web-service",
   },
   {
-    id: "08",
+    id: "12",
     imgUrl: ufo,
     category: "Games",
     title: "2D UFO Game",
@@ -93,7 +137,7 @@ const portfolios = [
     siteUrl: "https://drive.google.com/drive/folders/1PVqnP-MSzybzyAOh_w79KClFiu7CmYxK",
   },
   {
-    id: "09",
+    id: "13",
     imgUrl: roll,
     category: "Games",
     title: "3D Roll A Ball Game",
@@ -103,7 +147,7 @@ const portfolios = [
     siteUrl: "https://drive.google.com/drive/folders/1FFgSmlvJ6ppk-DBEL00fyqd4Lrx_-O-3",
   },
   {
-    id: "10",
+    id: "14",
     imgUrl: soundWave,
     category: "Web Design",
     title: "Music App Design",
@@ -113,7 +157,7 @@ const portfolios = [
     siteUrl: "https://www.figma.com/file/UjmK0FNDlAxGadqrKe2FFA/SoundWave?type=design&node-id=0%3A1&mode=design&t=nnTHakt4W8eKVrJF-1",
   },
   {
-    id: "11",
+    id: "15",
     imgUrl: boxChampy,
     category: "Web Design",
     title: "BoxChampy Homepage Design",
@@ -123,7 +167,7 @@ const portfolios = [
     siteUrl: "https://www.figma.com/file/d4wBpyBeKNU2fyT2oojTDJ/Boxing?type=design&node-id=15-35&mode=design",
   },
   {
-    id: "12",
+    id: "16",
     imgUrl: covid19,
     category: "Web Design",
     title: "Covid-19 Brochure Design",

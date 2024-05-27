@@ -18,26 +18,16 @@ import powerbi from "../images/Projects/powerbi3.png";
 const portfolios = [
   {
     id: "01",
-    imgUrl: sql,
+    imgUrl: powerbi,
     category: "Data Analyst",
-    title: "Data cleaning & EDA in MySQL",
+    title: "Data visualization using Power BI",
     description:
-      "In this project, I followed a procedure for data cleaning such as creating backups, removing duplicates and standardizing data, removing irrelevant data, handling missing values, etc. After this, I performed an exploratory data analysis.",
-    technologies: ["MySQL"],
-    siteUrl: "https://drive.google.com/drive/folders/1s-N04mwW2yf2OqAIj5DyHECqgiCA9EsX?usp=sharing",
+      "I built this project by leveraging various tools in Power BI such as bins & lists, conditional formatting, DAX, drill down, power query, relationship and visualizations.",
+    technologies: ["Power BI"],
+    siteUrl: "https://drive.google.com/drive/folders/1qeuNFJNvaG2QY2hef5Wq0lOrzz9fRuYy?usp=sharing",
   },
   {
     id: "02",
-    imgUrl: excel,
-    category: "Data Analyst",
-    title: "Creating interactive dashboard in Excel",
-    description:
-      "I built an interactive dashboard by leveraging my knowledge in Excel formulae, functions, data cleaning, conditional formatting, charts, pivot tables, XLOOKUP, etc.",
-    technologies: ["Microsoft Excel"],
-    siteUrl: "https://drive.google.com/drive/folders/12Pgyd5fvXTVNJN9xoC_z6YhNlAl3azE3?usp=sharing",
-  },
-  {
-    id: "03",
     imgUrl: tableau,
     category: "Data Analyst",
     title: "Data visualization using Tableau",
@@ -47,14 +37,24 @@ const portfolios = [
     siteUrl: "https://drive.google.com/drive/folders/1Vl7ZYd1HMJsWWr4w9BlRMbiKXuT9Vl67?usp=sharing",
   },
   {
-    id: "04",
-    imgUrl: powerbi,
+    id: "03",
+    imgUrl: excel,
     category: "Data Analyst",
-    title: "Data visualization using Power BI",
+    title: "Creating interactive dashboard in Excel",
     description:
-      "I built this project by leveraging various tools in Power BI such as bins & lists, conditional formatting, DAX, drill down, power query, relationship and visualizations.",
-    technologies: ["Power BI"],
-    siteUrl: "https://drive.google.com/drive/folders/1qeuNFJNvaG2QY2hef5Wq0lOrzz9fRuYy?usp=sharing",
+      "I built an interactive dashboard by leveraging my knowledge in Excel formulae, functions, data cleaning, conditional formatting, charts, pivot tables, XLOOKUP, etc.",
+    technologies: ["Microsoft Excel"],
+    siteUrl: "https://drive.google.com/drive/folders/12Pgyd5fvXTVNJN9xoC_z6YhNlAl3azE3?usp=sharing",
+  },
+  {
+    id: "04",
+    imgUrl: sql,
+    category: "Data Analyst",
+    title: "Data cleaning & EDA in MySQL",
+    description:
+      "In this project, I followed a procedure for data cleaning such as creating backups, removing duplicates and standardizing data, removing irrelevant data, handling missing values, etc. After this, I performed an exploratory data analysis.",
+    technologies: ["MySQL"],
+    siteUrl: "https://drive.google.com/drive/folders/1s-N04mwW2yf2OqAIj5DyHECqgiCA9EsX?usp=sharing",
   },
   {
     id: "05",

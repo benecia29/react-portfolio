@@ -24,7 +24,7 @@ const portfolios = [
     description:
       "I built this project by leveraging various tools in Power BI such as bins & lists, conditional formatting, DAX, drill down, power query, relationship and visualizations.",
     technologies: ["Power BI"],
-    siteUrl: "https://drive.google.com/drive/folders/1qeuNFJNvaG2QY2hef5Wq0lOrzz9fRuYy?usp=sharing",
+    siteUrl: "https://github.com/benecia29/BI-Analyst-PowerBI.git",
   },
   {
     id: "02",
@@ -34,7 +34,7 @@ const portfolios = [
     description:
       "Created various visualizations and dashboard in Tableau.",
     technologies: ["Tableau"],
-    siteUrl: "https://drive.google.com/drive/folders/1Vl7ZYd1HMJsWWr4w9BlRMbiKXuT9Vl67?usp=sharing",
+    siteUrl: "https://drive.google.com/drive/folders/1S8gVEmK6Af85Z727uNqoeCFjSWJ857HA?usp=sharing",
   },
   {
     id: "03",
@@ -44,7 +44,7 @@ const portfolios = [
     description:
       "I built an interactive dashboard by leveraging my knowledge in Excel formulae, functions, data cleaning, conditional formatting, charts, pivot tables, XLOOKUP, etc.",
     technologies: ["Microsoft Excel"],
-    siteUrl: "https://drive.google.com/drive/folders/12Pgyd5fvXTVNJN9xoC_z6YhNlAl3azE3?usp=sharing",
+    siteUrl: "https://github.com/benecia29/BI-Analyst-Excel.git",
   },
   {
     id: "04",
@@ -54,7 +54,7 @@ const portfolios = [
     description:
       "In this project, I followed a procedure for data cleaning such as creating backups, removing duplicates and standardizing data, removing irrelevant data, handling missing values, etc. After this, I performed an exploratory data analysis.",
     technologies: ["MySQL"],
-    siteUrl: "https://drive.google.com/drive/folders/1s-N04mwW2yf2OqAIj5DyHECqgiCA9EsX?usp=sharing",
+    siteUrl: "https://github.com/benecia29/BI-Analyst-MySQL.git",
   },
   {
     id: "05",
@@ -82,7 +82,7 @@ const portfolios = [
     category: "Ai",
     title: "Desktop Virtual Assistant",
     description:
-      "By integrating the OpenAI language model in this mini project, I leveraged its natural language processing capabilities to enable conversational interactions with users. Upon the user's verbal command, JARVIS (Yes, the one from Marvel XD) can send these user prompts, receive responses from the OpenAI API and display the results while also reading it out loud. It has access to the camera and microphone. It also has error handling functionalities so the user has a smooth experience. JARVIS is designed in a way that it can maintain the conversational flow (i.e. remember the previous queries). It can also write programs and save the file into a folder implementing file writing.",
+      "In this mini project, I integrated the OpenAI language model to enable JARVIS to engage in conversational interactions with users, responding to verbal commands and displaying or reading aloud the responses. JARVIS can access the camera and microphone, maintain conversational context, handle errors smoothly, and even write and save programs based on user prompts.",
     technologies: ["Python", "Application Programming Interface"],
     siteUrl: "https://drive.google.com/drive/folders/1UVeDIxVGL-TnvXsetd-lPqBrHd2_DOWt",
   },
@@ -102,7 +102,7 @@ const portfolios = [
     category: "Website",
     title: "Online Journal Website",
     description:
-      "I developed this website on Netbeans using 2 Java EE technologies, i.e, Jakarta Servlets and Java Server Pages (JSP). I used MongoDB as the backend database and HTML for the frontend. This website is an online journal which contains functionalities for the user such as user registration and login, adding and viewing content, uploading and viewing files in the form of jpeg, png, pdf, etc. All of which can be viewed by the admin on the website as well as in the database. After the admin logs in, there is also a functionality which allows to generate a pdf of the current page to view the users and the content, only for the admin. The admin can also delete the users and their content. Once logged out, the website will redirect to a beautifully designed home page. ",
+      "I developed an online journal website using Jakarta Servlets and JavaServer Pages (JSP) in NetBeans, with MongoDB as the backend and HTML for the frontend. Users can register, log in, add and view content, and upload files (jpeg, png, pdf). Admins can view and delete users and content, and generate PDFs of user data. The site redirects to a home page upon logout.",
     technologies: ["HTML", "CSS", "Java EE", "MongoDB", "Servlet", "Java Server Pages"],
     siteUrl: "https://drive.google.com/drive/folders/11j2RSa2IxDyDEU4gCnqq53-2Q27uvsSk",
   },
@@ -122,7 +122,7 @@ const portfolios = [
     category: "Api",
     title: "RESTful API",
     description:
-      "Introducing my mini project: a robust and efficient RESTful web service developed using Mongoose and MongoDB Atlas, powered by Node.js, Bcrypt.js, JSON Web Token (JWT), and Thunder Client. This dynamic system comprises three fundamental components: User, Order, and Product, each corresponding to collections within the MongoDB database. Leveraging the power of CRUD (Create, Read, Update, Delete) operations, users can seamlessly interact with and manage data within these entities. With a focus on security and seamless authentication, Bcrypt.js ensures encrypted password storage, while JWT facilitates secure user sessions. The integration of Thunder Client streamlines API testing, allowing for a smooth and reliable development experience.",
+      "Introducing my mini project: a RESTful web service developed with Mongoose, MongoDB Atlas, Node.js, Bcrypt.js, JWT, and Thunder Client. It features three components—User, Order, and Product—each as MongoDB collections, enabling CRUD operations for seamless data management. Bcrypt.js ensures encrypted passwords, JWT facilitates secure sessions, and Thunder Client streamlines API testing.",
     technologies: ["Node.js", "MongoDB Atlas", "JSON"],
     siteUrl: "https://github.com/benecia29/restful-web-service",
   },

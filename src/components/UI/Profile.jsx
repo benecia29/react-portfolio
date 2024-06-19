@@ -2,7 +2,7 @@ import React from "react";
 import profilePic from "../../assets/images/benecia.jpg";
 import star from "../../assets/images/star.png";
 import rightArrow from "../../assets/images/right-arrow.png";
-import resume from "../../assets/resume.pdf";
+import Benecia_Crasta from "../../assets/Benecia_Crasta.pdf";
 import Slider from "./Slider";
 
 const Profile = () => {
@@ -136,7 +136,7 @@ const Profile = () => {
             {/* *******personal details ends******** */}
 
             <button className="px-4 py-2 my-6 ml-[95px] lg:ml-[122px] md:ml-[75px] font-semibold text-sm text-center  bg-smallTextColor text-white hover:bg-headingColor dark:hover:bg-[#244c7f] rounded-full shadow-sm">
-              <a href={resume} download>
+              <a href={Benecia_Crasta} download>
                 <span className="mx-2 inline">Download CV</span>
               </a>
             </button>

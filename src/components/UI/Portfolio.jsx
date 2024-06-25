@@ -22,7 +22,7 @@ const Portfolio = () => {
         <div className="flex items-center justify-between flex-wrap">
           <div className="-mb-[25px] -mt-[18px] sm:mt-[30px] sm:-mb-[10px] mx-auto">
             <h3 className="text-headingColor dark:text-offWhite text-[2rem] font-[700]">
-              My Projects
+              My Portfolio Projects
             </h3>
           </div>
         </div>

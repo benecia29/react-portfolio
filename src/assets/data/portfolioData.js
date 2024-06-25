@@ -14,6 +14,11 @@ import excel from "../images/Projects/excel.png";
 import sql from "../images/Projects/workbench.jpg";
 import tableau from "../images/Projects/tableau2.png";
 import powerbi from "../images/Projects/powerbi3.png";
+import crypto from "../images/Projects/cryto api extraction.png";
+import bmi from "../images/Projects/bmi.png";
+import amazon from "../images/Projects/amazon.png";
+import filesorter from "../images/Projects/file sorter.png";
+
 
 const portfolios = [
   {
@@ -58,6 +63,46 @@ const portfolios = [
   },
   {
     id: "05",
+    imgUrl: crypto,
+    category: "Data Analyst",
+    title: "Automating Crypto Website API Pull",
+    description:
+      "In this project, I'm automating the API pull from a Crypto Website. Firstly, I have a testing file here where I was figuring out how to pull the data using the Crypto API. Then, in the main notebook file, I have extracted data via the API, appended and stored it in a .csv file, formatted the data and then performed data visualization on it.",
+    technologies: ["Python", "Jupyter Notebook"],
+    siteUrl: "https://github.com/benecia29/Automatic-API-Extraction.git"
+  },
+  {
+    id: "06",
+    imgUrl: amazon,
+    category: "Data Analyst",
+    title: "Amazon Web Scraper",
+    description:
+      "In this project, I'm scraping data of a product from Amazon and storing it in a CSV file. Also, I'm setting a timer to pull in the updated data, specifically to check the rating of the product. When the rating hits 4.5 or above, an email will be sent to me notifying about the same.",
+    technologies: ["Python", "Jupyter Notebook"],
+    siteUrl: "https://github.com/benecia29/Amazon-Web-Scraper.git"
+  },
+  {
+    id: "07",
+    imgUrl: filesorter,
+    category: "Data Analyst",
+    title: "Automatic File Sorter",
+    description:
+      "This mini-project is built around iterating through the files and putting them in various folders as per their extension.",
+    technologies: ["Python", "Jupyter Notebook"],
+    siteUrl: "https://github.com/benecia29/Automatic-File-Sorter.git"
+  },
+  {
+    id: "08",
+    imgUrl: bmi,
+    category: "Data Analyst",
+    title: "BMI Calculator",
+    description:
+      "This is a very beginner level project where I have built a BMI (Body Mass Index) Calculator using Python.",
+    technologies: ["Python", "Jupyter Notebook"],
+    siteUrl: "https://github.com/benecia29/BMI-Calculator.git"
+  },
+  {
+    id: "09",
     imgUrl: prob_solv,
     category: "Data Analyst",
     title: "Problem-Solving techniques",
@@ -67,7 +112,7 @@ const portfolios = [
     siteUrl: "https://drive.google.com/drive/folders/1suYmgmyQwh51YI16qwg_1YdhXX0nwFMC?usp=sharing",
   },
   {
-    id: "06",
+    id: "10",
     imgUrl: pjm,
     category: "Data Analyst",
     title: "Project Management Documentation",
@@ -77,7 +122,7 @@ const portfolios = [
     siteUrl: "https://drive.google.com/drive/folders/13ExBMTSZaK7jpQaeSJoCFqMopoapcoKM?usp=sharing",
   },
   {
-    id: "07",
+    id: "11",
     imgUrl: jarvis,
     category: "Ai",
     title: "Desktop Virtual Assistant",
@@ -87,7 +132,7 @@ const portfolios = [
     siteUrl: "https://drive.google.com/drive/folders/1UVeDIxVGL-TnvXsetd-lPqBrHd2_DOWt",
   },
   {
-    id: "08",
+    id: "12",
     imgUrl: travelcasa,
     category: "Data Analyst",
     title: "TravelCasa - Find Your Home Away from Home",
@@ -97,7 +142,7 @@ const portfolios = [
     siteUrl: "https://github.com/benecia29/travelcasa-project",
   },
   {
-    id: "09",
+    id: "13",
     imgUrl: journal,
     category: "Website",
     title: "Online Journal Website",
@@ -107,7 +152,7 @@ const portfolios = [
     siteUrl: "https://drive.google.com/drive/folders/11j2RSa2IxDyDEU4gCnqq53-2Q27uvsSk",
   },
   {
-    id: "10",
+    id: "14",
     imgUrl: weather,
     category: "Website",
     title: "Weather App",
@@ -117,7 +162,7 @@ const portfolios = [
     siteUrl: "https://github.com/benecia29/Snowphoria",
   },
   {
-    id: "11",
+    id: "15",
     imgUrl: rest,
     category: "Api",
     title: "RESTful API",
@@ -127,7 +172,7 @@ const portfolios = [
     siteUrl: "https://github.com/benecia29/restful-web-service",
   },
   {
-    id: "12",
+    id: "16",
     imgUrl: ufo,
     category: "Games",
     title: "2D UFO Game",
@@ -137,7 +182,7 @@ const portfolios = [
     siteUrl: "https://drive.google.com/drive/folders/1PVqnP-MSzybzyAOh_w79KClFiu7CmYxK",
   },
   {
-    id: "13",
+    id: "17",
     imgUrl: roll,
     category: "Games",
     title: "3D Roll A Ball Game",
@@ -147,7 +192,7 @@ const portfolios = [
     siteUrl: "https://drive.google.com/drive/folders/1FFgSmlvJ6ppk-DBEL00fyqd4Lrx_-O-3",
   },
   {
-    id: "14",
+    id: "18",
     imgUrl: soundWave,
     category: "Web Design",
     title: "Music App Design",
@@ -157,7 +202,7 @@ const portfolios = [
     siteUrl: "https://www.figma.com/file/UjmK0FNDlAxGadqrKe2FFA/SoundWave?type=design&node-id=0%3A1&mode=design&t=nnTHakt4W8eKVrJF-1",
   },
   {
-    id: "15",
+    id: "19",
     imgUrl: boxChampy,
     category: "Web Design",
     title: "BoxChampy Homepage Design",
@@ -167,7 +212,7 @@ const portfolios = [
     siteUrl: "https://www.figma.com/file/d4wBpyBeKNU2fyT2oojTDJ/Boxing?type=design&node-id=15-35&mode=design",
   },
   {
-    id: "16",
+    id: "20",
     imgUrl: covid19,
     category: "Web Design",
     title: "Covid-19 Brochure Design",
